@@ -1,0 +1,19 @@
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .animate-rating {
+    animation: fadeIn 1s ease-in-out;
+  }
+
+
+.arrow-badge::after {
+  content: "→"; /* Unicode de la flèche */
+  margin-left: 8px; /* Espacement entre le texte et la flèche */
+  font-size: 12px; /* Taille de la flèche */
+}

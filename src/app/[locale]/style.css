@@ -17,3 +17,7 @@
   margin-left: 8px; /* Espacement entre le texte et la flèche */
   font-size: 12px; /* Taille de la flèche */
 }
+
+body{
+  font-family: myFont;
+}

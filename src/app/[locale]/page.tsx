@@ -51,6 +51,7 @@ import { FaEnvelope, FaFacebook, FaInstagram, FaLinkedin, FaReddit, FaTumblr } f
 import ModalDialog from "../components/modalsialog/modaldialog";
 import BlogSectione from "../components/blog/product";
 import './style.css'; // Assurez-vous que le chemin est correct selon votre structure de projet
+import localFont from 'next/font/local'
 
 
 const products = [
@@ -86,6 +87,7 @@ const backgroundImageStyle: React.CSSProperties = {
 };
 
 
+const myFont = localFont({ src: './font/es.ttf' })
 
 
 export default function Page() {
@@ -121,7 +123,7 @@ const t = useTranslations('homePage')
 
 
   return (
-    <div >
+    <div className={myFont.className}>
     
       <header className="bg-transparent absolute mb-12 w-full">
         <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">

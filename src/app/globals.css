@@ -5,6 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-geist-sans: 'Es', sans-serif; /* Use the custom font variable */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,24 +15,17 @@
   }
 }
 
-
-
-
-
 body {
   color: var(--foreground);
   background: var(--background);
+  font-family: var(--font-geist-sans); /* Apply custom font here */
 }
-
-
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
-
-
 
 .typewriter {
   display: inline-block;
@@ -56,7 +50,6 @@ body {
   }
 }
 
-
 @keyframes customBounce {
   0%, 100% {
     transform: translateY(0);
@@ -69,5 +62,3 @@ body {
 .bounce-arrow {
   animation: customBounce 1s infinite;
 }
-
-

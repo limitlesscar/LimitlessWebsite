@@ -51,7 +51,6 @@ import { FaEnvelope, FaFacebook, FaInstagram, FaLinkedin, FaReddit, FaTumblr } f
 import ModalDialog from "../components/modalsialog/modaldialog";
 import BlogSectione from "../components/blog/product";
 import './style.css'; // Assurez-vous que le chemin est correct selon votre structure de projet
-import localFont from '@next/font/local';
 
 
 const products = [
@@ -93,10 +92,6 @@ export default function Page() {
  
   const [progress, setProgress] = useState(0);
 
-  const esFont = localFont({
-    src: '../fonts/es.ttf',
-  });
-
   
 const t = useTranslations('homePage')
 
@@ -126,7 +121,7 @@ const t = useTranslations('homePage')
 
 
   return (
-    <div style={{ fontFamily: esFont.style.fontFamily }}>
+    <div >
     
       <header className="bg-transparent absolute mb-12 w-full">
         <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
@@ -355,3 +350,4 @@ const t = useTranslations('homePage')
     </div>
   );
 }
+

@@ -6,12 +6,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { NextIntlClientProvider } from "next-intl";
 
-// Import custom font
-const es = localFont({
-  src: "../fonts/Es.ttf",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
+
 
 export const metadata: Metadata = {
   title: "limitless",
@@ -48,7 +43,7 @@ export default async function RootLayout({
         {/* Add the favicon */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
-      <body className={`${es.variable} antialiased`}>
+      <body className={` antialiased`}>
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>

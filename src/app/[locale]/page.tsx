@@ -87,7 +87,7 @@ const backgroundImageStyle: React.CSSProperties = {
 };
 
 
-const myFont = localFont({ src: './font/es.ttf' })
+const myFont = localFont({ src: './font/euclid.ttf' })
 
 
 export default function Page() {

@@ -7,7 +7,7 @@ import { routing } from "@/i18n/routing";
 import { NextIntlClientProvider } from "next-intl";
 
 // Load custom font
-const myFont = localFont({ src: './font/es.ttf' });
+const myFont = localFont({ src: './font/euclid.ttf' });
 
 export const metadata: Metadata = {
   title: "limitless",

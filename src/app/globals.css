@@ -14,15 +14,20 @@
   }
 }
 
+
 @font-face {
   font-family: 'Es';
-  src: url("../app/fonts/Ess.ttf");
+  src: url('/fonts/es.ttf') format('truetype');
 }
+
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: 'Es';
 }
+
+
 
 @layer utilities {
   .text-balance {

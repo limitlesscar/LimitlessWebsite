@@ -101,7 +101,7 @@ import portuguaishuit from "@/app/components/Devices 8/Apple/portuguais.png";
 import japonaishuit from "@/app/components/Devices 8/Apple/japonais.png";
 import espagnolhuit from "@/app/components/Devices 8/Apple/espagnol.png";
 import italianlhuit from "@/app/components/Devices 8/Apple/italian.png";
-import russianhuit from "@/app/components/Devices 8/Apple/portuguais.png";
+import russianhuit from "@/app/components/Devices 8/Apple/russe.png";
 
 
 

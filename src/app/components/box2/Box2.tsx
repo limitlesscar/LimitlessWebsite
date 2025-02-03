@@ -37,7 +37,7 @@ export default function Box2() {
   className="inline-flex rounded-xl bg-[#32bb78] px-4 py-3 text-sm font-semibold text-white shadow-sm 
              hover:bg-white hover:text-[#32bb78] hover:border hover:border-[#32bb78] 
              focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 
-             active:bg-blue-500 active:border active:border-blue-600"
+             active:bg-[#32bb78] active:border active:border-blue-600"
 >
   {t('Explorer')}
 </button>

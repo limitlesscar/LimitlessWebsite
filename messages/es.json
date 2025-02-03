@@ -4,6 +4,48 @@
     "Location de voiture": "Alquiler de coches",
     "Devenir locataire": "Convertirse en inquilino",
     "Aide": "Ayuda",
+    
+        "host": "Para los anfitriones",
+        "renter": "Para los inquilinos",
+        "questions": {
+          "host": [
+            {
+              "question": "¿Cómo puedo publicar un coche?",
+              "answer": "Puedes publicar un coche desde tu panel de control."
+            },
+            {
+              "question": "¿Puedo editar mi publicación?",
+              "answer": "Sí, ve a tus anuncios para editarlos."
+            },
+            {
+              "question": "¿Cómo elimino un anuncio?",
+              "answer": "Ve a tus anuncios y elimina el que desees."
+            },
+            {
+              "question": "¿Cuántos coches puedo publicar?",
+              "answer": "Puedes publicar un número ilimitado de coches."
+            }
+          ],
+          "renter": [
+            {
+              "question": "¿Cómo reservo un coche?",
+              "answer": "Busca un coche y haz clic en el botón de reservar."
+            },
+            {
+              "question": "¿Qué debo hacer si llego tarde?",
+              "answer": "Contacta al anfitrión para informarle del retraso."
+            },
+            {
+              "question": "¿Cómo sé si el coche está disponible?",
+              "answer": "La disponibilidad del coche está indicada en la página del anuncio."
+            },
+            {
+              "question": "¿Qué pasa si el anfitrión cancela mi reserva?",
+              "answer": "Te ofreceremos una alternativa o un reembolso."
+            }
+          ]
+        },
+            
     "Légal": "Legal",
             "Télécharger": "Descargar",
             "Notre assurance prend en compte tout": "Nuestro seguro tiene en cuenta todo",
@@ -30,7 +72,7 @@
         "Explorez une incroyable sélection de voitures, des plus communes aux plus extraordinaires": "Explora una increíble selección de coches, desde los más comunes hasta los más extraordinarios.",
         "Explorer": "Explorar",
         "Réservez une voiture proche de chez vous": "Reserva un coche cerca de ti",
-        "Trouvez des voitures à proximité et choisissez parmi les meilleurs modèles": "Encuentra coches cercanos y elige entre los mejores modelos.",
+       
         "featuresTwo": "Reserva un coche cerca de ti. Encuentra coches cercanos y elige entre los mejores modelos.",
         "Réservez une voiture": "Reserva un coche",
 
@@ -41,21 +83,17 @@
 
         "Trouvez des voitures autour de vous sur la carte": "Encuentra coches cerca de ti en el mapa",
     "Visualisez les voitures disponibles autour de vous directement sur la carte": "Visualiza los coches disponibles cerca de ti directamente en el mapa.",
-    "Trouvez des voitures autour de vous sur une carte interactive": "Encuentra coches cerca de ti en un mapa interactivo.",
+
     "Ouvrir la carte": "Abrir el mapa",
     "Discutez avec les propriétaires des voitures": "Habla con los propietarios de los coches",
     "Utilisez notre système de messagerie intégré pour échanger facilement avec les propriétaires des voitures": "Usa nuestro sistema de mensajería integrado para comunicarte fácilmente con los propietarios de los coches.",
-    "Discutez facilement avec les propriétaires des voitures via notre système de messagerie intégré": "Habla fácilmente con los propietarios de los coches a través de nuestro sistema de mensajería integrado.",
     "Discutez avec les propriétaires": "Habla con los propietarios",
     "Notez votre expérience": "Califica tu experiencia",
     "Donnez votre avis pour aider notre communauté à grandir et à s'améliorer": "Deja tu opinión para ayudar a nuestra comunidad a crecer y mejorar.",
-    "Notez votre expérience et partagez vos retours pour aider la communauté limitless à s’améliorer": "Califica tu experiencia y comparte tus comentarios para ayudar a la comunidad Limitless a mejorar.",
     "Modifiez et envoyez vos documents officiels": "Modifica y envía tus documentos oficiales",
     "Gérez vos documents comme votre permis de conduire et votre pièce d’identité en toute sécurité": "Gestiona tus documentos como tu permiso de conducir y tu identificación de manera segura.",
-    "Modifiez et envoyez vos documents officiels, comme votre permis de conduire et votre pièce d’identité, en toute sécurité": "Modifica y envía tus documentos oficiales, como tu permiso de conducir y tu identificación, de manera segura.",
     "envoyez vos documents officiels": "envía tus documentos oficiales",
     "Gérez vos réservations et vos commandes": "Gestiona tus reservas y pedidos",
-    "Consultez et modifiez vos réservations en toute simplicité depuis votre tableau de bord": "Consulta y modifica tus reservas fácilmente desde tu panel de control.",
     "Gérez vos réservations et vos commandes Consultez et modifiez vos réservations en toute simplicité depuis votre tableau de bord": "Gestiona tus reservas y pedidos. Consulta y modifica tus reservas fácilmente desde tu panel de control.",
     "Gérez vos réservations": "Gestiona tus reservas",
     "Témoignages": "Testimonios",

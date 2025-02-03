@@ -5,6 +5,61 @@
     "Devenir locataire": "Become a Renter",
     "Notre assurance prend en compte tout": "Our insurance takes everything into account",
     "Aide": "Help",
+      "host": "For Hosts",
+      "renter": "For Renters",
+      "questions": {
+        "host": [
+          {
+            "question": "How do I list a car?",
+            "answer": "You can list a car from your dashboard."
+          },
+          {
+            "question": "Can I edit my listing?",
+            "answer": "Yes, go to your listings to edit them."
+          },
+          {
+            "question": "How do I delete a listing?",
+            "answer": "Go to your listings and delete the one you want."
+          },
+          {
+            "question": "How many cars can I list?",
+            "answer": "You can list an unlimited number of cars."
+          }
+        ],
+        "renter": [
+          {
+            "question": "How do I book a car?",
+            "answer": "Search for a car and click the book button."
+          },
+          {
+            "question": "What should I do if I'm late?",
+            "answer": "Contact the host to inform them of the delay."
+          },
+          {
+            "question": "How do I know if the car is available?",
+            "answer": "The car's availability is indicated on the listing page."
+          },
+          {
+            "question": "What happens if the host cancels my booking?",
+            "answer": "We will offer you an alternative or a refund."
+          }
+        ]
+      }
+    
+
+    
+    ,
+    "modal": {
+      "title": "Formulaire de contact",
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "namePlaceholder": "Entrez votre nom",
+      "emailPlaceholder": "Entrez votre email",
+      "messagePlaceholder": "Entrez votre message",
+      "cancel": "Annuler",
+      "submit": "Soumettre"
+    },
     "Légal": "Legal",
     "Télécharger": "Download",
     "Devenir hôte": "Become a host",
@@ -28,27 +83,20 @@
     "Explorez une incroyable sélection de voitures, des plus communes aux plus extraordinaires": "Explore an amazing selection of cars, from the most common to the most extraordinary.",
     "Explorer": "Explore",
     "Réservez une voiture proche de chez vous": "Book a Car Near You",
-    "Trouvez des voitures à proximité et choisissez parmi les meilleurs modèles": "Find nearby cars and choose from the best models.",
     "featuresTwo": "Book a car near you. Find nearby cars and choose from the best models.",
     "Réservez une voiture": "Book a Car",
     "Trouvez des voitures autour de vous sur la carte": "Find Cars Around You on the Map",
     "Visualisez les voitures disponibles autour de vous directement sur la carte": "View available cars near you directly on the map.",
-    "Trouvez des voitures autour de vous sur une carte interactive": "Find cars near you on an interactive map.",
     "Ouvrir la carte": "Open Map",
     "Discutez avec les propriétaires des voitures": "Chat with Car Owners",
     "Utilisez notre système de messagerie intégré pour échanger facilement avec les propriétaires des voitures": "Use our integrated messaging system to easily communicate with car owners.",
-    "Discutez facilement avec les propriétaires des voitures via notre système de messagerie intégré": "Easily chat with car owners via our integrated messaging system.",
     "Discutez avec les propriétaires": "Chat with Owners",
     "Notez votre expérience": "Rate Your Experience",
     "Donnez votre avis pour aider notre communauté à grandir et à s'améliorer": "Leave your feedback to help our community grow and improve.",
-    "Notez votre expérience et partagez vos retours pour aider la communauté limitless à s’améliorer": "Rate your experience and share your feedback to help the Limitless community improve.",
     "Modifiez et envoyez vos documents officiels": "Edit and Submit Official Documents",
     "Gérez vos documents comme votre permis de conduire et votre pièce d’identité en toute sécurité": "Securely manage your documents, such as your driver's license and ID.",
-    "Modifiez et envoyez vos documents officiels, comme votre permis de conduire et votre pièce d’identité, en toute sécurité": "Edit and submit official documents, such as your driver's license and ID, securely.",
     "envoyez vos documents officiels": "Submit Official Documents",
     "Gérez vos réservations et vos commandes": "Manage Your Reservations and Orders",
-    "Consultez et modifiez vos réservations en toute simplicité depuis votre tableau de bord": "Easily view and modify your bookings from your dashboard.",
-    "Gérez vos réservations et vos commandes Consultez et modifiez vos réservations en toute simplicité depuis votre tableau de bord": "Manage your reservations and orders. Easily view and modify your bookings from your dashboard.",
     "Gérez vos réservations": "Manage Your Bookings",
     "Témoignages": "Testimonials",
     "Nous avons travaillé avec des milliers de personnes formidables": "We’ve worked with thousands of amazing people",
@@ -330,3 +378,7 @@
     "Pour toute demande d'autorisation, veuillez nous contacter directement via notre formulaire de contact": "For any authorization request, please contact us directly via our contact form."
   }
 }
+
+
+
+

@@ -47,7 +47,7 @@ export default async function RootLayout({
       <body className={`${myFont.className} antialiased`}>
         <NextIntlClientProvider messages={messages}>
           {children}
-        </NextIntlClientProvider>
+        </NextIntlClientProvider> 
       </body>
     </html>
   );

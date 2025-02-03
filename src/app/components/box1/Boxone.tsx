@@ -92,7 +92,7 @@ import portuguaishuit from "@/app/components/Devices 8/Apple/portuguais.png";
 import japonaishuit from "@/app/components/Devices 8/Apple/japonais.png";
 import espagnolhuit from "@/app/components/Devices 8/Apple/espagnol.png";
 import italianlhuit from "@/app/components/Devices 8/Apple/italian.png";
-import russianhuit from "@/app/components/Devices 8/Apple/portuguais.png";
+import russianhuit from "@/app/components/Devices 8/Apple/russe.png";
 
 
 
@@ -193,12 +193,10 @@ const t = useTranslations('homePage')
 
               <div className="mx-auto max-w-2xl grid grid-cols-1 lg:grid-cols-2 gap-y-16 sm:gap-y-20 mb-40">
         <div className="lg:order-2">
-          <h2 className="text-xl font-semibold text-black-600">
+          <h2 className="text-xl font-semibold text-black-600 mb-4">
             {t('Réservez une voiture proche de chez vous')}
           </h2>
-          <p className="mt-6 text-lg text-gray-600">
-            {t('Trouvez des voitures à proximité et choisissez parmi les meilleurs modèles')}
-          </p>
+         
           <dl className="mt-10 space-y-8 text-base text-gray-600">
             {featuresTwo.map((feature, index) => (
               <div key={index}>
@@ -261,22 +259,15 @@ const t = useTranslations('homePage')
             <h2 className="text-xl font-semibold text-black-600">
               {t('Trouvez des voitures autour de vous sur la carte')}
             </h2>
-            <p className="mt-6 text-lg text-gray-600">
+            <p className="mt-6 text-lg text-gray-600 mb-12">
               {t('Visualisez les voitures disponibles autour de vous directement sur la carte')}
             </p>
-            <dl className="mt-10 space-y-8 text-base text-gray-600">
-              {featuresThree.map((feature, index) => (
-                <div key={index}>
-                  <dd className="mb-12">{t(feature.description)}</dd>
-                  <a
+            <a
                     href="#"
-                    className="rounded-full bg-[#32bb78] px-12 py-3.5 text-sm font-semibold text-white shadow-sm hover:opacity-70  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                    className="rounded-full my-4 bg-[#32bb78] px-12 py-3.5 text-sm font-semibold text-white shadow-sm hover:opacity-70  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                   >
                    {t('Ouvrir la carte')}
                   </a>
-                </div>
-              ))}
-            </dl>
           </div>
           <div className="flex justify-center">
 
@@ -325,13 +316,13 @@ const t = useTranslations('homePage')
             <dl className="mt-10 space-y-8 text-base text-gray-600">
               {featuresFour.map((feature, index) => (
                 <div key={index}>
-                  <dd className="mb-12">{t(feature.description)}</dd>
+                
                   <a
   href="#"
   className="rounded-full bg-[#32bb78] px-12 py-3.5 text-sm font-semibold text-white shadow-sm 
              hover:bg-white hover:text-[#32bb78] hover:border hover:border-[#32bb78] 
              focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white 
-             active:bg-blue-500 active:border active:border-blue-600"
+             active:bg-[#32bb78] active:border active:border-blue-600"
 >
   {t('Discutez avec les propriétaires')}
 </a>
@@ -378,13 +369,13 @@ const t = useTranslations('homePage')
               {featuresFive.map((feature, index) => (
               
                 <div key={index}>
-                  <dd className="mb-12">{t(feature.description)}</dd>
+                 
                   <a
   href="#"
   className="rounded-full bg-[#32bb78] px-12 py-3.5 text-sm font-semibold text-white shadow-sm 
              hover:bg-white hover:text-[#32bb78] hover:border hover:border-[#32bb78] 
              focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white 
-             active:bg-blue-500 active:border active:border-blue-600"
+             active:bg-[#32bb78] active:border active:border-blue-600"
 >
   {t('Notez votre expérience')}
 </a>
@@ -437,13 +428,13 @@ const t = useTranslations('homePage')
             <dl className="mt-10 space-y-8 text-base text-gray-600">
               {featuresSix.map((feature, index) => (
                 <div key={index}>
-                  <dd className="mb-12">{t(feature.description)}</dd>
+                 
                   <a
   href="#"
   className="rounded-full bg-[#32bb78] px-12 py-3.5 text-sm font-semibold text-white shadow-sm 
              hover:bg-white hover:text-[#32bb78] hover:border hover:border-[#32bb78] 
              focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white 
-             active:bg-blue-500 active:border active:border-blue-600"
+             active:bg-[#32bb78] active:border active:border-blue-600"
 >
   {t('envoyez vos documents officiels')}
 </a>
@@ -516,9 +507,7 @@ const t = useTranslations('homePage')
     <h2 className=" text-xl font-semibold text-black-600">
       {t('Gérez vos réservations et vos commandes')}
     </h2>
-    <p className="mt-6 text-lg text-gray-600">
-      {t('Consultez et modifiez vos réservations en toute simplicité depuis votre tableau de bord')}
-    </p>
+   
     <dl className="mt-10 space-y-8 text-base text-gray-600">
       {featuresOne.map((feature, index) => (
         <div key={index}>
@@ -528,7 +517,7 @@ const t = useTranslations('homePage')
   className="rounded-full bg-[#32bb78] px-12 py-3.5 text-sm font-semibold text-white shadow-sm 
              hover:bg-white hover:text-[#32bb78] hover:border hover:border-[#32bb78] 
              focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white 
-             active:bg-blue-500 active:border active:border-blue-600"
+             active:bg-[#32bb78] active:border active:border-blue-600"
 >
   {t('Gérez vos réservations')}
 </a>

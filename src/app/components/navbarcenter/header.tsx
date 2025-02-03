@@ -10,6 +10,7 @@ import Footer from '../footer';
 import { useRouter } from 'next/navigation';  // Import useRouter
 import { useTranslations } from 'next-intl';
 import LocaleSwitcher from '../localeSwitcher/LocaleSwitcher';
+import NavSearchTwo from './NavSearchTwo';
 
 
 
@@ -23,7 +24,7 @@ const navigation = [
 
 
 
-export default function NavCenter() {
+export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const router = useRouter();  // Initialize router
   
@@ -105,7 +106,7 @@ const t = useTranslations("homePage")
 
 
       
-      <Navsearch />
+      <NavSearchTwo />
       <Footer />
     </div>
   );

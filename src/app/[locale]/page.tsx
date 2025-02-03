@@ -124,12 +124,13 @@ const t = useTranslations('homePage')
 
   return (
     <div className={myFont.className}>
-    
       <header className="bg-transparent absolute mb-12 w-full">
         <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">
+                GoLimitless
+              </span>
               <Image src={logo} alt="Logo" className="h-8 w-auto" width={52} height={52} />
             </a>
           </div>

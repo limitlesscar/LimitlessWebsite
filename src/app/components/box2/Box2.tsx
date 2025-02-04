@@ -5,8 +5,10 @@ export default function Box2() {
   const router = useRouter();
 
   const navigateToNew = () => {
-    router.push('/new');
+    router.push('gettheapp');
   };
+
+
   const t = useTranslations('homePage')
     return (
       <div className="relative bg-white">
@@ -41,6 +43,8 @@ export default function Box2() {
 >
   {t('Explorer')}
 </button>
+
+
 
             </div>
           </div>

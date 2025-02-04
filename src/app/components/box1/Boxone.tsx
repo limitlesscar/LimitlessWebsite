@@ -202,7 +202,7 @@ const t = useTranslations('homePage')
               <div key={index}>
                 <dd className="mb-12">{t(feature.description)}</dd>
                 <a
-                  href="#"
+                     href="/gettheapp"
                   className="rounded-full bg-[#32bb78] px-12 py-3.5 text-sm font-semibold text-white shadow-sm hover:opacity-70 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                   {t('Réservez une voiture')} 
@@ -263,7 +263,7 @@ const t = useTranslations('homePage')
               {t('Visualisez les voitures disponibles autour de vous directement sur la carte')}
             </p>
             <a
-                    href="#"
+                    href="/gettheapp"
                     className="rounded-full my-4 bg-[#32bb78] px-12 py-3.5 text-sm font-semibold text-white shadow-sm hover:opacity-70  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                   >
                    {t('Ouvrir la carte')}
@@ -318,7 +318,7 @@ const t = useTranslations('homePage')
                 <div key={index}>
                 
                   <a
-  href="#"
+    href="/gettheapp"
   className="rounded-full bg-[#32bb78] px-12 py-3.5 text-sm font-semibold text-white shadow-sm 
              hover:bg-white hover:text-[#32bb78] hover:border hover:border-[#32bb78] 
              focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white 
@@ -371,7 +371,7 @@ const t = useTranslations('homePage')
                 <div key={index}>
                  
                   <a
-  href="#"
+    href="/gettheapp"
   className="rounded-full bg-[#32bb78] px-12 py-3.5 text-sm font-semibold text-white shadow-sm 
              hover:bg-white hover:text-[#32bb78] hover:border hover:border-[#32bb78] 
              focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white 
@@ -430,7 +430,7 @@ const t = useTranslations('homePage')
                 <div key={index}>
                  
                   <a
-  href="#"
+    href="/gettheapp"
   className="rounded-full bg-[#32bb78] px-12 py-3.5 text-sm font-semibold text-white shadow-sm 
              hover:bg-white hover:text-[#32bb78] hover:border hover:border-[#32bb78] 
              focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white 
@@ -513,7 +513,7 @@ const t = useTranslations('homePage')
         <div key={index}>
           <dd className="mb-12">{t(feature.description)}</dd>
           <a
-  href="#"
+    href="/gettheapp"
   className="rounded-full bg-[#32bb78] px-12 py-3.5 text-sm font-semibold text-white shadow-sm 
              hover:bg-white hover:text-[#32bb78] hover:border hover:border-[#32bb78] 
              focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white 

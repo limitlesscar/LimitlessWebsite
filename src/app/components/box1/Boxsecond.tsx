@@ -311,7 +311,7 @@ export default function BoxSecond() {
           <h2 className="text-base font-semibold text-black-600">{t(feature.title)}</h2>
           <p className="mt-6 text-lg text-gray-600">{t(feature.description)}</p>
           <a
-            href="#"
+            href="gettheapp"
             className="mt-10 inline-block rounded-full bg-[#32bb78] px-12 py-3.5 text-sm font-semibold text-white shadow-sm hover:opacity-70 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
           >
             {t(feature.buttonText)}

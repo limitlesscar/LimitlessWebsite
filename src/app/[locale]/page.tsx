@@ -368,7 +368,7 @@ export default function Page() {
 
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-y-6 sm:gap-x-6 sm:gap-y-0">
               <a
-                href="#"
+                href="gettheapp"
                 className="rounded-full border border-[#32bb78] hover:border-[#32bb78] bg-[#32bb78] px-12 py-3.5 text-sm font-semibold text-white shadow-sm 
           hover:bg-[#32bb78] hover:shadow-lg focus:ring-4 focus:ring-green-500 focus:outline-none 
           focus:ring-offset-2 focus:ring-offset-black active:shadow-xl active:scale-95 flex items-center gap-2 transition-all duration-300 ease-in-out transform hover:scale-105"
@@ -378,7 +378,7 @@ export default function Page() {
               </a>
 
               <a
-                href="#"
+                href="gettheapp"
                 className="rounded-full border border-[#32bb78] hover:border-[#32bb78] bg-[#32bb78] px-12 py-3.5 text-sm font-semibold text-white shadow-sm 
           hover:bg-[#32bb78] hover:shadow-lg focus:ring-4 focus:ring-green-500 focus:outline-none 
           focus:ring-offset-2 focus:ring-offset-black active:shadow-xl active:scale-95 flex items-center gap-2 transition-all duration-300 ease-in-out transform hover:scale-105"
@@ -387,6 +387,9 @@ export default function Page() {
                 {t("Télécharger l'appli pour Android")}
               </a>
             </div>
+
+
+
 
             {/* Texte et étoiles */}
             <p className="mt-8 text-white font-medium text-lg">
@@ -404,6 +407,14 @@ export default function Page() {
           </div>
         </div>
       </div>
+
+
+
+
+
+
+
+
 
       <BannerBusiness />
       <Box2 />

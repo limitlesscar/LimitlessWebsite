@@ -1,3 +1,4 @@
+// Import necessary modules
 import { Metadata } from "next";
 import localFont from "next/font/local";
 import "../globals.css";
@@ -31,7 +32,7 @@ export default async function RootLayout({
     notFound();
   }
 
-  // Enable static rendering
+  // Enable static rendering for the locale
   setRequestLocale(locale);
 
   // Fetch messages for the locale

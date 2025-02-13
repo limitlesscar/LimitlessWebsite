@@ -18,15 +18,17 @@ export const metadata: Metadata = {
   },
 };
 
+// Define Props type
 type Props = {
   children: React.ReactNode;
   params: { locale: string };
 };
 
+// Async function for RootLayout
 export default async function RootLayout({
   children,
   params: { locale },
-}: Readonly<Props>) {
+}: Props) {
   // Ensure that the incoming `locale` is valid
   if (!routing.locales.includes(locale)) {
     notFound();

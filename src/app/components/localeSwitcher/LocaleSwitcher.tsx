@@ -46,7 +46,7 @@ export default function LocaleSwitcher({
         aria-haspopup="true"
         aria-expanded={isDropdownOpen ? 'true' : 'false'}
       >
-        <div className="bg-transparent text-white hover:text-black hover:bg-gray-100 hover:ring-2 hover:ring-[#32bb78] flex items-center justify-between transition-all duration-300 ease-in-out rounded-full px-4 py-2">
+        <div className="bg-transparent text-black  hover:text-black hover:bg-gray-100 hover:ring-2 hover:ring-[#32bb78] border border-2 flex items-center justify-between transition-all duration-300 ease-in-out rounded-full px-4 py-2">
           <CircleFlagLanguage className="w-6 h-6" languageCode={locale as string} />
           <p className="ml-2 text-sm font-medium">{currentLanguageName}</p>
           <ChevronDownIcon className="w-4 h-4 ml-2 text-gray-500" />

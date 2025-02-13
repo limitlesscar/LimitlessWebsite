@@ -1,5 +1,6 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
+import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl'
 
 const faqs = [
@@ -58,31 +59,45 @@ const faqs = [
 export default function FAQSection() {
   const t = useTranslations('homePage')
   return (
-    <div className="bg-white">
-      <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
-        <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
-          <h2 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-            {t('Questions fréquemment posées')}
-          </h2>
-          <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
-            {faqs.map((faq) => (
-              <Disclosure key={faq.question} as="div" className="pt-6">
-                <dt>
-                  <DisclosureButton className="group flex w-full items-start justify-between text-left text-gray-900">
-                    <span className="text-base font-semibold">{t(faq.question)}</span>
-                    <span className="ml-6 flex h-7 items-center">
-                      <PlusSmallIcon aria-hidden="true" className="size-6 group-data-[open]:hidden" />
-                      <MinusSmallIcon aria-hidden="true" className="size-6 group-data-[open]:block" />
+    <div className="bg-[#32BA78] text-white py-24 px-6">
+      <div className="max-w-4xl mx-auto text-center">
+        <motion.h2 
+          initial={{ opacity: 0, y: -20 }} 
+          animate={{ opacity: 1, y: 0 }} 
+          transition={{ duration: 0.5 }}
+          className="text-4xl font-extrabold sm:text-5xl">
+          {t('Questions fréquemment posées')}
+        </motion.h2>
+      </div>
+      <div className="max-w-3xl mx-auto mt-10 space-y-6">
+        {faqs.map((faq, index) => (
+          <motion.div 
+            key={faq.question} 
+            initial={{ opacity: 0, y: 10 }} 
+            animate={{ opacity: 1, y: 0 }} 
+            transition={{ duration: 0.3, delay: index * 0.1 }}
+          >
+            <Disclosure as="div" className="p-6 bg-white rounded-2xl shadow-lg">
+              {({ open }) => (
+                <>
+                  <DisclosureButton className="flex w-full justify-between text-left text-lg font-semibold text-gray-900">
+                    <span>{t(faq.question)}</span>
+                    <span>
+                      {open ? (
+                        <MinusSmallIcon className="h-6 w-6 text-[#32BA78]" />
+                      ) : (
+                        <PlusSmallIcon className="h-6 w-6 text-[#32BA78]" />
+                      )}
                     </span>
                   </DisclosureButton>
-                </dt>
-                <DisclosurePanel as="dd" className="mt-2 pr-12">
-                  <p className="text-base text-gray-600">{t(faq.answer)}</p>
-                </DisclosurePanel>
-              </Disclosure>
-            ))}
-          </dl>
-        </div>
+                  <DisclosurePanel as="div" className="mt-3 text-gray-700 text-base leading-relaxed">
+                    {t(faq.answer)}
+                  </DisclosurePanel>
+                </>
+              )}
+            </Disclosure>
+          </motion.div>
+        ))}
       </div>
     </div>
   )

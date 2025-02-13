@@ -15,7 +15,7 @@ export default function Box2() {
         <div className="relative h-80 overflow-hidden md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
           <img
             alt=""
-            src="https://resources.turo.com/f/253489/1584x352/de36d46225/browse-entry_web-2x.jpg/m/"
+            src="https://images.unsplash.com/photo-1608790039230-6121188d1280?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             className="w-full h-full object-cover"
           />
         </div>
@@ -23,7 +23,7 @@ export default function Box2() {
           <div className="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32">
            
            
-            <p className="mt-2 text-4xl font-semibold tracking-tight text-black sm:text-5xl">
+            <p  className="mt-1 different text-4xl font-semibold tracking-tight sm:text-5xl leading-relaxed bg-gradient-to-r from-blue-500 to-[#32bb78] bg-clip-text text-transparent">
             {t('Louez des voitures pour toutes les occasions')}
 
 

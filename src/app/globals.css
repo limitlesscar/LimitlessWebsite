@@ -17,7 +17,6 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @layer utilities {
@@ -60,4 +59,22 @@ body {
 
 .bounce-arrow {
   animation: customBounce 1s infinite;
+}
+
+
+body {
+  font-family: 'MyCustomFont'; /* Name of your custom font */
+
+}
+
+
+@font-face {
+  font-family: 'MyCustomFont'; /* Name of your custom font */
+  src: url('./fonts/es.ttf') format('truetype'); /* Path to your custom font */
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2.different {
+  font-family: 'MyCustomFont'; /* Name of your custom font */
 }

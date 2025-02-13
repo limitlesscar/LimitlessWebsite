@@ -193,7 +193,7 @@ const t = useTranslations('homePage')
 
               <div className="mx-auto max-w-2xl grid grid-cols-1 lg:grid-cols-2 gap-y-16 sm:gap-y-20 mb-40">
         <div className="lg:order-2">
-          <h2 className="text-xl font-semibold text-black-600 mb-4">
+          <h2 className="mt-1 different text-4xl font-semibold tracking-tight sm:text-5xl leading-relaxed bg-gradient-to-r from-blue-500 to-[#32bb78] bg-clip-text text-transparent">
             {t('Réservez une voiture proche de chez vous')}
           </h2>
          
@@ -256,7 +256,7 @@ const t = useTranslations('homePage')
         {/* Box Three: screenThree */}
         <div className="mx-auto max-w-2xl grid grid-cols-1 lg:grid-cols-2 gap-y-16 sm:gap-y-20 mb-40">
           <div>
-            <h2 className="text-xl font-semibold text-black-600">
+            <h2  className="mt-1 different text-4xl font-semibold tracking-tight sm:text-5xl leading-relaxed bg-gradient-to-r from-blue-500 to-[#32bb78] bg-clip-text text-transparent">
               {t('Trouvez des voitures autour de vous sur la carte')}
             </h2>
             <p className="mt-6 text-lg text-gray-600 mb-12">
@@ -308,7 +308,7 @@ const t = useTranslations('homePage')
     
         <div className="mx-auto max-w-2xl grid grid-cols-1 lg:grid-cols-2 gap-y-16 sm:gap-y-20 mb-40">
           <div className="lg:order-2">
-            <h2 className="text-xl font-semibold text-black-600">
+            <h2  className="mt-1 different text-4xl font-semibold tracking-tight sm:text-5xl leading-relaxed bg-gradient-to-r from-blue-500 to-[#32bb78] bg-clip-text text-transparent">
               {t('Discutez avec les propriétaires des voitures')}
             </h2>
             <p className="mt-6 text-lg text-gray-600">
@@ -359,7 +359,7 @@ const t = useTranslations('homePage')
         {/* Box Five: screenFive */}
         <div className="mx-auto max-w-2xl grid grid-cols-1 lg:grid-cols-2 gap-y-16 sm:gap-y-20 mb-40">
           <div>
-            <h2 className="text-xl font-semibold text-black-600">
+            <h2  className="mt-1 different text-4xl font-semibold tracking-tight sm:text-5xl leading-relaxed bg-gradient-to-r from-blue-500 to-[#32bb78] bg-clip-text text-transparent">
               {t('Notez votre expérience')}
             </h2>
             <p className="mt-6 text-lg text-gray-600">
@@ -419,7 +419,7 @@ const t = useTranslations('homePage')
         
         <div className="mx-auto max-w-2xl grid grid-cols-1 lg:grid-cols-2 gap-y-16 sm:gap-y-20 mb-40 ">
           <div className="lg:order-2">
-            <h2 className="text-xl font-semibold text-black-600">
+            <h2  className="mt-1 different text-4xl font-semibold tracking-tight sm:text-5xl leading-relaxed bg-gradient-to-r from-blue-500 to-[#32bb78] bg-clip-text text-transparent">
              {t('Modifiez et envoyez vos documents officiels')}
             </h2>
             <p className="mt-6 text-lg text-gray-600">
@@ -504,7 +504,7 @@ const t = useTranslations('homePage')
           />
   </div>
   <div className="lg:order-1">
-    <h2 className=" text-xl font-semibold text-black-600">
+    <h2  className="mt-1 different text-4xl font-semibold tracking-tight sm:text-5xl leading-relaxed bg-gradient-to-r from-blue-500 to-[#32bb78] bg-clip-text text-transparent">
       {t('Gérez vos réservations et vos commandes')}
     </h2>
    

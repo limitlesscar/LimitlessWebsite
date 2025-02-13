@@ -3,6 +3,8 @@
         
             "Aide et Légal": "Aiuto e Legale",
             "Location de voiture": "Noleggio auto",
+            "ge": "Scarica l'app su Play Store o App Store ",
+
             "Devenir locataire": "Diventa locatario",
             "Aide": "Aiuto",
             "Légal": "Legale",
@@ -17,7 +19,7 @@
             "googlePlay": "Google Play",
             "thisComponentIsPartOf": "Scarica la nostra app. La versione 3 non è ancora disponibile su Apple Store e Google Play.",
             "flowbiteDocumentation": "Limitless",
-            "Location de voitures": "Noleggio auto",
+            "Location de voitures": "La Tua Auto, La Tua Libertà",
             "appDescription": "Limitless è un'app di noleggio auto. Tutte le nostre auto sono attentamente verificate. Noleggia facilmente un'auto tramite il nostro sistema di carta e trova una vicina a te.",
             "Télécharger l'appli pour IOS": "Scarica l'app per iOS",
             "Télécharger l'appli pour Android": "Scarica l'app per Android",
@@ -112,6 +114,13 @@
 
 
   "posts": {
+    "ge": "Scarica l'app su Play Store o App Store ",
+
+    "home": "Home",
+     "launchInFrance": "Abbiamo lanciato in Francia per tutti!",
+    "excitedToHelp": "Siamo entusiasti di aiutarti a guadagnare denaro.",
+    "becomeTenant": "Diventa un inquilino",
+    "help": "Aiuto",
     "fromBlog": "Dal blog",
     "learnToGrow": "Esplora come la tecnologia sta trasformando l'industria automobilistica.",
     "boostConversion": "La rivoluzione della guida autonoma",
@@ -142,6 +151,9 @@
     "virtualExperience": "VR e AR nell'industria automobilistica",
     "virtualExperienceDescription": "Scopri come la realtà virtuale e aumentata stanno rivoluzionando il modo in cui progettiamo, vendiamo e viviamo i veicoli.",
     "immersiveTech": "Tecnologia immersiva",
+    "alert_message": "Stiamo costruendo la più grande piattaforma di noleggio auto",
+  "discover": "Scoprire",
+  "close": "Chiudere",
     "emmaBrown": "Emma Brown",
     "vrArSpecialist": "Stratega VR"
   },

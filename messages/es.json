@@ -4,7 +4,8 @@
     "Location de voiture": "Alquiler de coches",
     "Devenir locataire": "Convertirse en inquilino",
     "Aide": "Ayuda",
-    
+    "ge": "Obtén la app en Play Store o App Store. ",
+
         "host": "Para los anfitriones",
         "renter": "Para los inquilinos",
         "questions": {
@@ -50,11 +51,13 @@
             "Télécharger": "Descargar",
             "Notre assurance prend en compte tout": "Nuestro seguro tiene en cuenta todo",
             "Devenir hôte": "Convertirse en anfitrión",
-            "Location de voitures": "Alquiler de coches",
+            "Location de voitures": "Alquiler de coches, pero con la mejor experiencia",
             "appDescription": "Limitless es una aplicación de alquiler de coches. Todos nuestros coches son cuidadosamente revisados. Alquila fácilmente un coche a través de nuestro sistema de tarjeta y encuentra uno cerca de ti.",
             "Télécharger l'appli pour IOS": "Descargar la app para iOS",
             "Télécharger l'appli pour Android": "Descargar la app para Android",
-            "Location de voiture entre particuliers et pros assurée par AXA": "Alquiler de coches entre particulares y profesionales asegurado por AXA",
+            "Location de voiture entre particuliers et pros assurée par AXA": "Alquiler de coches entre particulares y profesionales asegurado por ",
+
+            
             "10k avis sur les stores": "10k opiniones en las tiendas",
             "Trouvez des voitures proches de chez vous": "Encuentra coches cerca de ti",
             "Discutez directement avec les locataires": "Habla directamente con los inquilinos",
@@ -203,6 +206,15 @@
 
 
     "posts": {
+      "ge": "Obtén la app en Play Store o App Store. ",
+      "home": "Inicio",
+    "becomeTenant": "Conviértete en inquilino",
+    "help": "Ayuda",
+    "alert_message": "Estamos construyendo la plataforma de alquiler de coches más grande",
+  "discover": "Descubrir",
+  "close": "Cerrar",
+  "launchInFrance": "¡Hemos lanzado en Francia para todos!",
+    "excitedToHelp": "Estamos emocionados de ayudarte a ganar dinero.",
       "fromBlog": "Desde el blog",
       "learnToGrow": "Explora cómo la tecnología está transformando la industria automotriz.",
       "boostConversion": "Revolucionando la Conducción Autónoma",

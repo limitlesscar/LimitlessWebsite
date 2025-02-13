@@ -9,7 +9,7 @@ const MenuIcon = (props:any) => (
     {...props}
   >
     <path
-      stroke="#fff"
+      stroke="#000"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}

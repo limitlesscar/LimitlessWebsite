@@ -4,6 +4,8 @@
             "Location de voiture": "Aluguel de carro",
             "Devenir locataire": "Tornar-se locatário",
             "Aide": "Ajuda",
+            "ge": "Baixe o app na Play Store ou na App Store ",
+
             "Légal": "Legal",
             "Support primé": "Suporte premiado",
        
@@ -25,7 +27,7 @@
             "appDescription": "limitless é um aplicativo de aluguel de carros. Todos os nossos carros são cuidadosamente verificados. Alugue facilmente um carro através do nosso sistema de cartão e encontre um perto de você.",
             "Télécharger l'appli pour IOS": "Baixar o aplicativo para IOS",
             "Télécharger l'appli pour Android": "Baixar o aplicativo para Android",
-            "Location de voiture entre particuliers et pros assurée par AXA": "Aluguel de carros entre particulares e profissionais com seguro AXA",
+            "Location de voiture entre particuliers et pros assurée par AXA": "Aluguel de carros entre particulares e profissionais com seguro ",
             "10k avis sur les stores": "10k avaliações nas lojas",
             "Trouvez des voitures proches de chez vous": "Encontre carros próximos de você",
             "Discutez directement avec les locataires": "Converse diretamente com os locatários",
@@ -134,6 +136,13 @@
 }
 ,
   "posts": {
+    "ge": "Baixe o app na Play Store ou na App Store ",
+
+    "home": "Início",
+    "launchInFrance": "Lançamos na França para todos!",
+    "excitedToHelp": "Estamos empolgados em ajudá-lo a ganhar dinheiro.",
+    "becomeTenant": "Torne-se um inquilino",
+    "help": "Ajuda",
     "fromBlog": "Do blog",
     "learnToGrow": "Explore como a tecnologia está transformando a indústria automotiva.",
     "boostConversion": "Revolucionando a Condução Autônoma",
@@ -145,6 +154,9 @@
     "buildBrandOnlineDescription": "Aprenda como os avanços na tecnologia de baterias, infraestrutura de carregamento e fabricação sustentável estão impulsionando a revolução dos veículos elétricos.",
     "branding": "Veículos Elétricos",
     "lisaWang": "Lisa Wang",
+    "alert_message": "Estamos construindo a maior plataforma de aluguel de carros",
+  "discover": "Descobrir",
+  "close": "Fechar",
     "brandStrategist": "Defensora da Sustentabilidade",
     "futureDigitalMarketing": "Carros Conectados e Mobilidade Inteligente",
     "futureDigitalMarketingDescription": "Entenda como a tecnologia de carros conectados e IoT estão transformando a mobilidade, melhorando a segurança e aprimorando a experiência do usuário.",

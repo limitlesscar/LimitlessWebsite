@@ -3,7 +3,8 @@
     "Aide et Légal": "Help and Legal",
     "Location de voiture": "Car Rental",
     "Devenir locataire": "Become a Renter",
-    
+    "ge": "get the app in play store or app store ",
+
     "workFastFromAnywhere": "Alquila un coche en cualquier lugar",
     "stayUpdatedWithFlowbite": "Mantente actualizado y avanza con Limitless en iOS y Android. Descarga la aplicación hoy.",
     "downloadOnThe": "Descargar en",
@@ -74,11 +75,11 @@
     "Légal": "Legal",
     "Télécharger": "Download",
     "Devenir hôte": "Become a host",
-    "Location de voitures": "Car Rentals",
+    "Location de voitures": "Rent a Car, Join Us, and Drive with Freedom! ",
     "appDescription": "Limitless is a car rental app. All our cars are carefully inspected. Easily rent a car using our map system and find one near you.",
     "Télécharger l'appli pour IOS": "Download the app for iOS",
     "Télécharger l'appli pour Android": "Download the app for Android",
-    "Location de voiture entre particuliers et pros assurée par AXA": "Peer-to-peer and professional car rentals insured by AXA",
+    "Location de voiture entre particuliers et pros assurée par AXA": "Peer-to-peer and professional car rentals insured by ",
     "10k avis sur les stores": "10k reviews on app stores",
     "Trouvez des voitures proches de chez vous": "Find cars near you",
     "Discutez directement avec les locataires": "Chat directly with renters",
@@ -179,7 +180,13 @@
     "Voir les avis": "View reviews"
   },
   "posts": {
+    "alert_message": "We are building the largest car rental platform",
+    "discover": "Discover",
+    "close": "Close",
+    "ge": "get the app in play store or app store ",
     "fromBlog": "From the blog",
+    "launchInFrance": "We’ve launched in France for everyone!",
+    "excitedToHelp": "We are excited to help you make money.",
     "learnToGrow": "Explore how technology is reshaping the automotive industry.",
     "boostConversion": "Revolutionizing Autonomous Driving",
     "boostConversionDescription": "Discover the latest advancements in self-driving technology, including AI-driven decision-making, sensor fusion, and real-world safety enhancements.",

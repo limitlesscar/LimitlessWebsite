@@ -7,14 +7,16 @@
     "Devenir locataire": "貸し手になる",
     "Aide": "ヘルプ",
     "Légal": "法的",
+    "ge": "Play Store または App Store からアプリをダウンロードしてください ",
+
     "Télécharger": "ダウンロード",
     "Notre assurance prend en compte tout": "私たちの保険はすべてを考慮に入れます",
     "Devenir hôte": "ホストになる",
-    "Location de voitures": "車のレンタル",
+    "Location de voitures": "自由に移動できる車のレンタル",
     "appDescription": "limitlessは車のレンタルアプリです。すべての車は慎重に検査されています。カードシステムを使用して簡単に車をレンタルし、近くの車を見つけましょう。",
     "Télécharger l'appli pour IOS": "iOS用アプリをダウンロード",
     "Télécharger l'appli pour Android": "Android用アプリをダウンロード",
-    "Location de voiture entre particuliers et pros assurée par AXA": "AXAが保障する個人と業者間の車のレンタル",
+    "Location de voiture entre particuliers et pros assurée par AXA": "が保障する個人と業者間の車のレンタル",
     "10k avis sur les stores": "ストアで10kのレビュー",
     "Trouvez des voitures proches de chez vous": "近くの車を見つけよう",
 
@@ -138,6 +140,16 @@
       "Voir les avis": "レビューを見る"
     },
       "posts": {
+        "home": "ホーム",
+        "ge": "Play Store または App Store からアプリをダウンロードしてください ",
+
+        "becomeTenant": "入居者になる",
+        "help": "ヘルプ",
+        "alert_message": "私たちは、最大の車両レンタルプラットフォームを構築しています",
+        "discover": "発見する",
+        "close": "閉じる",
+        "launchInFrance": "フランスで誰でも利用できるようにスタートしました！",
+    "excitedToHelp": "あなたがお金を稼げるようにお手伝いできることを楽しみにしています。",
         "fromBlog": "ブログから",
         "learnToGrow": "テクノロジーが自動車業界をどのように変革しているかを探る。",
         "boostConversion": "自動運転の革命",

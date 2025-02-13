@@ -1,6 +1,8 @@
 {
     "homePage":{
            "Aide et Légal" : "Aide et Légal",
+           "ge": "Téléchargez l'application sur le Play Store ou l'App Store. ",
+
            "Location de voiture":"Location de voiture",
            "Devenir locataire":"Devenir locataire",
            "Aide":"Aide",
@@ -16,11 +18,11 @@
              "Télécharger": "Télécharger",
              "Notre assurance prend en compte tout": "Notre assurance prend en compte tout",
   "Devenir hôte": "Devenir hôte",
-           "Location de voitures":"Location de voitures",
+           "Location de voitures":"Location de voitures, mais avec un service exceptionnel",
            "appDescription":"limitless est une application de location de voitures. Toutes nos voitures sont soigneusement vérifiées. Louez facilement une voiture via notre système de carte et trouvez-en une près de chez vous.",
            "Télécharger l'appli pour IOS":"Télécharger l'appli pour IOS",
            "Télécharger l'appli pour Android":"Télécharger l'appli pour Android",
-           "Location de voiture entre particuliers et pros assurée par AXA":"Location de voiture entre particuliers et pros assurée par AXA",
+           "Location de voiture entre particuliers et pros assurée par AXA":"Location de voiture entre particuliers et pros assurée par ",
            "10k avis sur les stores":"10k avis sur les stores",
            "Trouvez des voitures proches de chez vous":"Trouvez des voitures proches de chez vous",
            "Discutez directement avec les locataires":"Discutez directement avec les locataires",
@@ -92,6 +94,15 @@
 },
 
   "posts": {
+    "ge": "Téléchargez l'application sur le Play Store ou l'App Store. ",
+    "alert_message": "Nous construisons la plus grande plateforme de location de voitures",
+    "discover": "Découvrir",
+     "launchInFrance": "Nous avons lancé en France pour tout le monde !",
+    "excitedToHelp": "Nous sommes ravis de vous aider à gagner de l'argent.",
+    "close": "Fermer",
+    "home": "Accueil",
+    "becomeTenant": "Devenir locataire",
+    "help": "Aide",
     "fromBlog": "Depuis le blog",
     "learnToGrow": "Découvrez comment la technologie transforme l'industrie automobile.",
     "boostConversion": "Révolutionner la conduite autonome",

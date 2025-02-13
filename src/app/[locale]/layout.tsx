@@ -7,10 +7,10 @@ import { routing } from "@/i18n/routing";
 import { NextIntlClientProvider } from "next-intl";
 
 // Load custom font
-const myFont = localFont({ src: './font/Poppins-SemiBold.ttf' });
+const myFont = localFont({ src: "./font/Poppins-SemiBold.ttf" });
 
 export const metadata: Metadata = {
-  title: "limitless",
+  title: "Limitless",
   description: "Louer une voiture",
   icons: {
     icon: "/favicon.ico", // Path relative to the public folder
@@ -27,13 +27,21 @@ export default async function RootLayout({
   params: { locale },
 }: Readonly<Props>) {
   // Ensure that the incoming `locale` is valid
-  if (!routing.locales.includes(locale as any)) {
+  if (!routing.locales.includes(locale)) {
     notFound();
   }
 
   // Enable static rendering
   setRequestLocale(locale);
-  const messages = await getMessages();
+
+  // Fetch messages for the locale
+  let messages;
+  try {
+    messages = await getMessages();
+  } catch (error) {
+    console.error("Failed to load messages for locale:", locale, error);
+    notFound();
+  }
 
   // Determine text direction based on locale
   const direction = locale === "ar" ? "rtl" : "ltr";
@@ -47,7 +55,7 @@ export default async function RootLayout({
       <body className={`${myFont.className} antialiased`}>
         <NextIntlClientProvider messages={messages}>
           {children}
-        </NextIntlClientProvider> 
+        </NextIntlClientProvider>
       </body>
     </html>
   );

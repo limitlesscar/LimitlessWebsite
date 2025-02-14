@@ -28,17 +28,15 @@ type Props = {
 export default async function RootLayout({
   children,
   params: { locale },
-}: Props) {
+}: Readonly<Props>) {
   // Ensure that the incoming `locale` is valid
   if (!routing.locales.includes(locale)) {
     notFound();
   }
-}: Readonly<Props>) {
-  // Ensure that the incoming `locale` is valid, and if not, trigger a 404 response
-  if (!routing.locales.includes(locale as any)) {
-    notFound();
-  }
+
+  // Set the request locale for next-intl
   setRequestLocale(locale);
+
   // Fetch messages for the specified locale, handle any errors gracefully
   let messages;
   try {
@@ -50,6 +48,7 @@ export default async function RootLayout({
 
   // Determine text direction based on locale
   const direction = locale === "ar" ? "rtl" : "ltr";
+
   return (
     <html lang={locale} dir={direction}>
       <head>

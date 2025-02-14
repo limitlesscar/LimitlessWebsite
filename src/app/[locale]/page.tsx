@@ -131,7 +131,7 @@ export default function Page() {
       <Alert />
 
       <div className={myFont.className}>
-        <header className="bg-white absolute mb-12 w-full">
+        <header className="bg-gray-500 bg-opacity-5 fixed backdrop-blur-lg rounded-xl border border-white/20  mb-12 w-full py-0.5 px-2 shadow-sm">
           <nav
             aria-label="Global"
             className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
@@ -452,3 +452,4 @@ export default function Page() {
     </div>
   );
 }
+

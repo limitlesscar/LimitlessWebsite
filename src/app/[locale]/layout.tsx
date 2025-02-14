@@ -28,6 +28,7 @@ type Props = {
 export default async function RootLayout({
   children,
   params: { locale },
+<<<<<<< Updated upstream
 }: Props) {
   // Ensure that the incoming `locale` is valid
   if (!routing.locales.includes(locale)) {
@@ -35,15 +36,24 @@ export default async function RootLayout({
   }
 
   // Enable static rendering for the locale
+=======
+}: Readonly<Props>) {
+  // Ensure that the incoming `locale` is valid, and if not, trigger a 404 response
+  if (!routing.locales.includes(locale as any)) {
+    notFound();
+  }
+
+  // Set the locale for the request, enabling static rendering based on the locale
+>>>>>>> Stashed changes
   setRequestLocale(locale);
 
-  // Fetch messages for the locale
+  // Fetch messages for the specified locale, handle any errors gracefully
   let messages;
   try {
     messages = await getMessages();
   } catch (error) {
-    console.error("Failed to load messages for locale:", locale, error);
-    notFound();
+    console.error(`Failed to load messages for locale: ${locale}`, error);
+    notFound(); // Trigger a 404 if the messages cannot be loaded
   }
 
   // Determine text direction based on locale
@@ -52,10 +62,11 @@ export default async function RootLayout({
   return (
     <html lang={locale} dir={direction}>
       <head>
-        {/* Add the favicon */}
+        {/* Add favicon */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className={`${myFont.className} antialiased`}>
+        {/* Provide messages to the app via NextIntlClientProvider */}
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>

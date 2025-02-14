@@ -2,9 +2,7 @@
 import { Metadata } from "next";
 import localFont from "next/font/local";
 import "../globals.css";
-import { getMessages, setRequestLocale } from "next-intl/server";
-import { notFound } from "next/navigation";
-import { routing } from "@/i18n/routing";
+import { getMessages } from "next-intl/server"; // Removing the locale-based logic
 import { NextIntlClientProvider } from "next-intl";
 
 // Load custom font
@@ -21,46 +19,26 @@ export const metadata: Metadata = {
 // Define Props type
 type Props = {
   children: React.ReactNode;
-  params: { locale: string };
 };
 
 // Async function for RootLayout
 export default async function RootLayout({
   children,
-  params: { locale },
-<<<<<<< Updated upstream
-}: Props) {
-  // Ensure that the incoming `locale` is valid
-  if (!routing.locales.includes(locale)) {
-    notFound();
-  }
-
-  // Enable static rendering for the locale
-=======
 }: Readonly<Props>) {
-  // Ensure that the incoming `locale` is valid, and if not, trigger a 404 response
-  if (!routing.locales.includes(locale as any)) {
-    notFound();
-  }
-
-  // Set the locale for the request, enabling static rendering based on the locale
->>>>>>> Stashed changes
-  setRequestLocale(locale);
-
-  // Fetch messages for the specified locale, handle any errors gracefully
+  // Fetch messages for the default language (you can set this to a static locale)
   let messages;
   try {
-    messages = await getMessages();
+    messages = await getMessages(); // Default messages
   } catch (error) {
-    console.error(`Failed to load messages for locale: ${locale}`, error);
-    notFound(); // Trigger a 404 if the messages cannot be loaded
+    console.error("Failed to load messages", error);
+    return <p>Error loading content</p>; // Show an error message if messages can't be loaded
   }
 
-  // Determine text direction based on locale
-  const direction = locale === "ar" ? "rtl" : "ltr";
+  // Set a default direction (e.g., left-to-right as default)
+  const direction = "ltr";
 
   return (
-    <html lang={locale} dir={direction}>
+    <html lang="en" dir={direction}> {/* Default to English */}
       <head>
         {/* Add favicon */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
@@ -74,3 +52,4 @@ export default async function RootLayout({
     </html>
   );
 }
+

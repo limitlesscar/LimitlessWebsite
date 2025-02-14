@@ -67,6 +67,7 @@ import Alert from "../components/Alert/Alert";
 import Features from "../components/select/NewsScelect";
 import Stats from "../components/stats/stats";
 import Brands from "../components/brands/brands";
+import SearchBar from "../components/serachbar/SearchBar";
 
 const products = [
   {
@@ -136,7 +137,7 @@ export default function Page() {
             className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
           >
             <div className="flex lg:flex-1">
-              <a href="#" className="-m-1.5 p-1.5">
+              <a href="https://golimitless.fr/" className="-m-1.5 p-1.5">
                 <span className="sr-only">GoLimitless</span>
                 <Image
                   src={logoblack}
@@ -230,8 +231,11 @@ export default function Page() {
               </a>
             </PopoverGroup>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+           
               <LocaleSwitcher />
             </div>
+
+            <SearchBar/>
           </nav>
           <Dialog
             open={mobileMenuOpen}

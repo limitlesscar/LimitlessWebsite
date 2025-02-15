@@ -92,7 +92,6 @@ const backgroundImageStyle: React.CSSProperties = {
 const myFont = localFont({ src: "./font/Poppins-SemiBold.ttf" });
 
 export default function Page() {
-  const [progress, setProgress] = useState(0);
 
   const t = useTranslations("homePage");
 
@@ -111,21 +110,50 @@ export default function Page() {
   };
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [progress, setProgress] = useState(0);
   const [loading, setLoading] = useState(true);
+
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 100); // 2000 seconds
-    return () => clearTimeout(timer);
+    const interval = setInterval(() => {
+      setProgress((prevProgress) => {
+        if (prevProgress >= 100) {
+          clearInterval(interval);
+          setLoading(false); // Simulate end of loading
+          return 100;
+        }
+        return prevProgress + 1;
+      });
+    }, 10); // Adjust the interval time to control progress speed
   }, []);
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center h-screen bg-green-500">
-        <Image src={logo} alt="Logo" width={80} height={80} />
+      <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-green-400 to-blue-500">
+        <div className="relative flex flex-col items-center">
+          <div className="absolute inset-0 bg-opacity-50 rounded-full animate-pulse"></div>
+          
+          {/* Logo */}
+          <Image src={logo} alt="Logo" width={80} height={80} className="z-10 mb-4" />
+
+          {/* Loading Text */}
+          <div className="text-white font-bold text-lg animate-bounce mb-4">...</div>
+
+          {/* Progress Bar */}
+          <div className="w-64 bg-gray-300 rounded-full h-2">
+            <div
+              className="bg-blue-600 h-2 rounded-full"
+              style={{ width: `${progress}%` }}
+            ></div>
+          </div>
+
+          {/* Progress Text */}
+          <div className="text-white font-medium mt-2">{progress}%</div>
+        </div>
       </div>
     );
   }
+
+
   return (
     <div>
       <Alert />
@@ -381,7 +409,7 @@ export default function Page() {
                 <span>{t("Location de voitures")}</span>
               </h2>
 
-              <p className="mx-auto mt-6 max-w-xl text-lg text-black">
+              <p className="mx-auto mt-6 max-w-xl text-md text-black">
                 {t("appDescription")}
               </p>
 
@@ -408,7 +436,7 @@ export default function Page() {
               </div>
 
               <div className="flex flex-row">
-                <p className="mt-8 text-black font-medium text-lg">
+                <p className="mt-8 text-black font-medium text-sm">
                   {t(
                     "Location de voiture entre particuliers et pros assurée par AXA"
                   )}
@@ -423,7 +451,7 @@ export default function Page() {
               </div>
 
               <div className="flex justify-center mt-4 animate-rating">
-                <span className="text-black text-lg font-semibold">4.6/5</span>
+                <span className="text-black text-sm font-semibold">4.6/5</span>
                 <span className="text-black text-sm mx-2">★ ★ ★ ★ ★</span>
                 <span className="text-black text-sm">
                   ({t("10k avis sur les stores")})
@@ -451,5 +479,9 @@ export default function Page() {
       </div>
     </div>
   );
+}
+
+function setLoading(arg0: boolean) {
+  throw new Error("Function not implemented.");
 }
 

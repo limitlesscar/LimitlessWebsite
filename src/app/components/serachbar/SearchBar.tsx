@@ -109,65 +109,72 @@ export default function SearchBar() {
         <MagnifyingGlassIcon className="w-6 h-6" />
       </button>
 
-      {/* Search Modal with Animation */}
-      <AnimatePresence>
-        {isSearchOpen && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-md flex justify-center items-center z-50"
-          >
-            <motion.div
-              initial={{ scale: 0.9, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              exit={{ scale: 0.9, opacity: 0 }}
-              transition={{ duration: 0.3, ease: 'easeOut' }}
-              className="bg-white w-full max-w-lg p-6 rounded-2xl shadow-2xl relative"
-            >
-              {/* Close Button */}
-              <button
-                onClick={toggleSearch}
-                className="absolute top-4 right-4 text-gray-500 hover:text-gray-700 transition-all duration-300"
-              >
-                <XMarkIcon className="w-6 h-6" />
-              </button>
+    
 
-              {/* Search Input */}
-              <div className="flex items-center bg-gray-100 border border-gray-300 rounded-full px-4 py-3 shadow-sm">
-                <MagnifyingGlassIcon className="w-6 h-6 text-gray-500" />
-                <input
-                  type="text"
-                  className="ml-3 w-full bg-transparent focus:outline-none text-gray-900 placeholder-gray-500 text-lg"
-                  placeholder={languages[currentLanguage].searchPlaceholder}
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  autoFocus
-                />
-              </div>
 
-              {/* Search Results */}
-              {searchQuery && (
-                <ul className="mt-4 space-y-2">
-                  {filteredItems.length > 0 ? (
-                    filteredItems.map((item, index) => (
-                      <li key={index}>
-                        <Link href={item.link} onClick={toggleSearch}>
-                          <span className="block px-4 py-2 text-lg text-gray-700 hover:bg-gray-100 rounded-lg transition duration-200">
-                            {item.name}
-                          </span>
-                        </Link>
-                      </li>
-                    ))
-                  ) : (
-                    <li className="text-gray-500 px-4 py-2">{languages[currentLanguage].noResults}</li>
-                  )}
-                </ul>
-              )}
-            </motion.div>
-          </motion.div>
+    {/* Search Modal with Glass Effect */}
+<AnimatePresence>
+  {isSearchOpen && (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm flex justify-center items-center z-50"
+    >
+      <motion.div
+        initial={{ scale: 0.9, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        exit={{ scale: 0.9, opacity: 0 }}
+        transition={{ duration: 0.3, ease: 'easeOut' }}
+        className="bg-white bg-opacity-20 backdrop-blur-sm w-full max-w-lg p-6 rounded-2xl shadow-2xl relative"
+      >
+        {/* Close Button */}
+        <button
+          onClick={toggleSearch}
+          className="absolute top-4 right-4 text-gray-200 hover:text-gray-400 transition-all duration-300"
+        >
+          <XMarkIcon className="w-6 h-6" />
+        </button>
+
+        {/* Search Input */}
+        <div className="flex items-center bg-gray-100 bg-opacity-50 border border-gray-300 rounded-full px-4 py-3 shadow-sm backdrop-blur-sm">
+          <MagnifyingGlassIcon className="w-6 h-6 text-gray-500" />
+          <input
+            type="text"
+            className="ml-3 w-full bg-transparent focus:outline-none text-gray-900 placeholder-gray-500 text-lg"
+            placeholder={languages[currentLanguage].searchPlaceholder}
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            autoFocus
+          />
+        </div>
+
+        {/* Search Results */}
+        {searchQuery && (
+          <ul className="mt-4 space-y-2">
+            {filteredItems.length > 0 ? (
+              filteredItems.map((item, index) => (
+                <li key={index}>
+                  <Link href={item.link} onClick={toggleSearch}>
+                    <span className="block px-4 py-2 text-lg text-gray-700 hover:bg-gray-100 rounded-lg transition duration-200">
+                      {item.name}
+                    </span>
+                  </Link>
+                </li>
+              ))
+            ) : (
+              <li className="text-gray-500 px-4 py-2">{languages[currentLanguage].noResults}</li>
+            )}
+          </ul>
         )}
-      </AnimatePresence>
+      </motion.div>
+    </motion.div>
+  )}
+</AnimatePresence>
+
+
+
     </>
   );
 }
+

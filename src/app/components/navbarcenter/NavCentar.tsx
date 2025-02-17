@@ -9,7 +9,7 @@ import { useRouter } from 'next/navigation';  // Import useRouter
 import { useTranslations } from 'next-intl';
 import LocaleSwitcher from '../localeSwitcher/LocaleSwitcher';
 import SearchBar from '../serachbar/SearchBar';  // Import SearchBar here
-
+import './style.css'
 const navigation = [
   { name: 'Location de voiture', href: '/' },
   { name: 'Devenir locataire', href: '/new' },  // Direct link, no need for handleNavigate
@@ -51,7 +51,7 @@ export default function Navsearch({ searchQuery, setSearchQuery, isLoading }: Na
     <section className="bg-gray-50 py-12">
       <div className="max-w-screen-xl px-6 mx-auto sm:px-12 lg:px-16">
         <div className="max-w-screen-md mx-auto text-center mb-12">
-          <h2 className="text-3xl font-extrabold text-gray-800">{t('Comment pouvons-nous vous aider ?')}</h2>
+          <h2 className="text-3xl different font-extrabold text-gray-800 ">{t('Comment pouvons-nous vous aider ?')}</h2>
           <p className="text-lg text-gray-600 mt-4">{t('Trouvez des réponses à vos questions ci-dessous ou utilisez la barre de recherche pour affiner votre recherche')}</p>
 
           <div className="mt-6 relative">

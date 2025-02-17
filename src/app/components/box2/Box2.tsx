@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
+import './car.css'
 
 export default function Box2() {
   const router = useRouter();

@@ -1,4 +1,6 @@
 import { useTranslations } from "next-intl";
+import './car.css'
+
 
 const incentives = [
   {

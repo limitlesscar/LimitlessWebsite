@@ -28,6 +28,15 @@ import {
 import logo from "@/app/components/images/Logo - White.png";
 import logoblack from "@/app/components/images/Logo - Black.png";
 import Image from "next/image";
+import './car.css'
+
+
+
+
+
+
+
+
 
 import Team from "@/app/team";
 import Footer from "@/app/components/footer";
@@ -194,8 +203,8 @@ const t_new = useTranslations('newPage');
       <div className="bg-blue-700" style={backgroundImageStyle}>
   <div className="px-6 py-24 sm:px-6 sm:py-52 lg:px-8">
     <div className="mx-auto max-w-2xl text-center">
-      <h2 className="text-white text-4xl font-semibold tracking-tight sm:text-5xl">
-        <span className="typewriter">
+      <h2 className="text-white text-4xl different font-semibold tracking-tight sm:text-5xl">
+        <span className="typewriter different">
           {t_new("Gagner de l'argent")} 
         </span>
       </h2>

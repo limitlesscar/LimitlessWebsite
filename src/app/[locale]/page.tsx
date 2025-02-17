@@ -405,9 +405,14 @@ export default function Page() {
                 </span>
               </motion.div>
 
-              <h2 className=" different mt-12 text-4xl font-semibold tracking-tight sm:text-5xl leading-relaxed bg-gradient-to-r from-blue-500 to-[#32bb78] bg-clip-text text-transparent">
-                <span>{t("Location de voitures")}</span>
-              </h2>
+              <h2 className="different mt-12 mb-10 text-4xl lg:text-6xl font-semibold tracking-tight sm:text-5xl leading-relaxed bg-gradient-to-r from-blue-500 to-[#32bb78] bg-clip-text text-transparent animate-pulse">
+  <span>{t("Location de voitures")}</span>
+</h2>
+
+
+
+
+
 
               <p className="mx-auto mt-6 max-w-xl text-md text-black">
                 {t("appDescription")}
@@ -460,6 +465,9 @@ export default function Page() {
             </div>
           </div>
         </div>
+
+
+
 
         <Brands />
 

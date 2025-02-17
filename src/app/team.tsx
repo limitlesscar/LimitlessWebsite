@@ -1,4 +1,6 @@
 import { useTranslations } from "next-intl"
+import './car.css'
+
 
 export default function Team() {
   const t = useTranslations('homePage')
@@ -37,8 +39,8 @@ export default function Team() {
       </div>
       <div className="relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40">
         <div className="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32">
-          <h2 className="text-base/7 font-semibold text-white">{t('Support primé')}</h2>
-          <p className="mt-2 text-4xl font-semibold tracking-tight text-white sm:text-5xl">{t('Nous sommes là pour vous aider')}</p>
+          <h2 className="text-base/7 different font-semibold text-white">{t('Support primé')}</h2>
+          <p className="mt-2 text-4xl font-semibold different tracking-tight text-white sm:text-5xl">{t('Nous sommes là pour vous aider')}</p>
         
           <div className="mt-8">
             <a

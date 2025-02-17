@@ -1,4 +1,6 @@
 import { useTranslations } from "next-intl"
+import './car.css'
+
 
 export default  function Numbers() {
   const t = useTranslations('newPage')
@@ -6,7 +8,7 @@ export default  function Numbers() {
       <div className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+            <h2 className="text-pretty text-4xl different font-semibold tracking-tight text-gray-900 sm:text-5xl">
               {t("Louez votre voiture et transformez votre manière de gagner de l'argent")}
             </h2>
             <p className="mt-6 text-base/7 text-gray-600">

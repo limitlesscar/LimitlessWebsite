@@ -40,7 +40,7 @@
     font-style: normal;
   }
   
-  h3.different {
+  h2.different {
     font-family: 'MyCustomFont'; /* Name of your custom font */
     line-height: 1.5; /* Adjust this value as needed */
   }

@@ -102,7 +102,7 @@ import japonaishuit from "@/app/components/Devices 8/Apple/japonais.png";
 import espagnolhuit from "@/app/components/Devices 8/Apple/espagnol.png";
 import italianlhuit from "@/app/components/Devices 8/Apple/italian.png";
 import russianhuit from "@/app/components/Devices 8/Apple/russe.png";
-
+import './style.css'; // Adjust the path as needed
 
 
 
@@ -308,7 +308,7 @@ export default function BoxSecond() {
           />
         </div>
         <div>
-          <h2 className="text-base font-semibold text-black-600">{t(feature.title)}</h2>
+          <h2 className="text-base font-semibold text-black-600 different">{t(feature.title)}</h2>
           <p className="mt-6 text-lg text-gray-600">{t(feature.description)}</p>
           <a
             href="gettheapp"

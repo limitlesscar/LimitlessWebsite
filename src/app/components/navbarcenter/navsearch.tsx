@@ -12,7 +12,7 @@ import SearchBar from '../serachbar/SearchBar';  // Assuming this is your search
 import Footer from '../footer';
 import { FaSearch } from 'react-icons/fa';
 import { HiSearch } from 'react-icons/hi';  // Import the HiSearch icon
-
+import './style.css'
 // Define the navigation menu items
 const navigation = [
   { name: 'Location de voiture', href: '/' },
@@ -117,7 +117,7 @@ export default function Navsearch({ searchQuery, setSearchQuery, isLoading }: { 
     <section className="bg-gray-50 py-12">
       <div className="max-w-screen-xl px-6 mx-auto sm:px-12 lg:px-16">
         <div className="max-w-screen-md mx-auto text-center mb-12">
-          <h2 className="text-3xl font-extrabold text-gray-800">{t('Comment pouvons-nous vous aider ?')}</h2>
+          <h2 className="text-3xl font-extrabold text-gray-800 different">{t('Comment pouvons-nous vous aider ?')}</h2>
           <p className="text-lg text-gray-600 mt-4">{t('Trouvez des réponses à vos questions ci-dessous ou utilisez la barre de recherche pour affiner votre recherche')}</p>
 
           <div className="mt-6 relative">

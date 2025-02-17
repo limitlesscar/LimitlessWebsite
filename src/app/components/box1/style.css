@@ -32,3 +32,17 @@
 .animate-right {
   animation: animateRight 1s ease-out forwards;
 }
+
+
+@font-face {
+  font-family: 'MyCustomFont'; /* Name of your custom font */
+  src: url('../../[locale]/font/Golimitless.ttf') format('truetype'); /* Path to your custom font */
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2.different {
+  font-size: 25px;
+  font-family: 'MyCustomFont'; /* Name of your custom font */
+  line-height: 1.5; /* Adjust this value as needed */
+}

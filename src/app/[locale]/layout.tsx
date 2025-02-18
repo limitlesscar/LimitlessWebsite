@@ -25,7 +25,7 @@ type Props = {
 export default async function RootLayout({
   children,
   locale,
-}: Readonly<Props>) {
+}: Props) {  // Remove Readonly here
   // Fetch messages based on the dynamic locale (server-side operation)
   let messages;
   try {
@@ -51,3 +51,4 @@ export default async function RootLayout({
     </html>
   );
 }
+

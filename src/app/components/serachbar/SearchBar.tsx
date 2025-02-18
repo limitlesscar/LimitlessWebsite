@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import { useLocale } from 'next-intl';
 
-type LanguageKeys = 'en' | 'es' | 'ita' | 'ja' | 'ru' | 'pt' | 'fr';
+type LanguageKeys = 'en' | 'es' | 'it' | 'ja' | 'ru' | 'pt' | 'fr';
 
 const languages: Record<LanguageKeys, { searchPlaceholder: string; noResults: string; items: { name: string; link: string; }[] }> = {
   en: {
@@ -29,7 +29,7 @@ const languages: Record<LanguageKeys, { searchPlaceholder: string; noResults: st
       { name: 'Contacto', link: '/aide' },
     ],
   },
-  ita: {
+  it: {
     searchPlaceholder: 'Cerca...',
     noResults: 'Nessun risultato trovato',
     items: [
@@ -181,5 +181,7 @@ export default function SearchBar() {
     </>
   );
 }
+
+
 
 

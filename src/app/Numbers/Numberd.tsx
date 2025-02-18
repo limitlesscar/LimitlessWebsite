@@ -16,7 +16,7 @@ export default  function Numbers() {
           </div>
           <div className="mx-auto mt-16 flex max-w-2xl flex-col gap-8 lg:mx-0 lg:mt-20 lg:max-w-none lg:flex-row lg:items-end">
             <div className="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-gray-50 p-8 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start">
-              <p className="flex-none text-3xl font-bold tracking-tight text-gray-900">500k</p>
+              <p className="flex-none text-3xl font-bold tracking-tight text-gray-900">400k</p>
               <div className="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
                 <p className="text-lg font-semibold tracking-tight text-gray-900">{t("Hôtes satisfaits dans le monde entier")}</p>
                 <p className="mt-2 text-base/7 text-gray-600">{t("Rejoignez des milliers d'hôtes qui partagent leur véhicule pour générer des revenus supplémentaires de manière flexible et rentable")}</p>

@@ -190,20 +190,6 @@
     }
 ,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     "posts": {
       "ge": "Obtén la app en Play Store o App Store. ",
       "home": "Inicio",
@@ -247,8 +233,6 @@
       "emmaBrown": "Emma Brown",
       "vrArSpecialist": "Estratega de Realidad Virtual"
     },
-    
-
 "aidePage":{
 "Comment pouvons-nous vous aider ?": "¿Cómo podemos ayudarte?",
   "Trouvez des réponses à vos questions ci-dessous ou utilisez la barre de recherche pour affiner votre recherche": "Encuentra respuestas a tus preguntas a continuación o utiliza la barra de búsqueda para afinar tu búsqueda.",
@@ -256,12 +240,7 @@
   "Hôtes": "Anfitriones",
   "Locataires": "Inquilinos",
   "Assurance": "Seguro",
-  "Légal": "Legal",
- "topics" : {
-   
-
-
-    
+  "Légal": "Legal",   
         "Comment publier une voiture ?": "¿Cómo publicar un coche?",
         "Vous pouvez publier une voiture depuis votre tableau de bord.": "Puede publicar un coche desde su panel de control.",
         "Puis-je modifier ma publication ?": "¿Puedo modificar mi publicación?",
@@ -291,12 +270,6 @@
         "Les avis sont visibles dans la section des réservations passées.": "Las opiniones son visibles en la sección de reservas pasadas.",
         "Comment gérer mes prix de location ?": "¿Cómo gestionar mis precios de alquiler?",
         "Vous pouvez ajuster les prix depuis votre tableau de bord.": "Puede ajustar los precios desde su panel de control.",
-      
-      
- 
-
-
-  
     "Puis-je refuser une réservation ?": "¿Puedo rechazar una reserva?",
     "Oui, vous pouvez refuser une réservation en accédant à votre tableau de bord.": "Sí, puede rechazar una reserva accediendo a su panel de control.",
     "Comment faire la vérification des documents d’un locataire ?": "¿Cómo hacer la verificación de los documentos de un arrendatario?",
@@ -326,11 +299,6 @@
     "Que faire si la voiture n'est pas comme décrite dans l'annonce ?": "¿Qué hacer si el coche no es como se describe en el anuncio?",
     "Contactez l'hôte et, si nécessaire, notre support.": "Contacte con el anfitrión y, si es necesario, con nuestro soporte.",
     "Comment récupérer la voiture après avoir réservé ?": "¿Cómo recuperar el coche después de haber reservado?",
-  
-  
-
-
-        
             "L'hôte vous fournira les instructions pour récupérer la voiture.": "El anfitrión le proporcionará las instrucciones para recoger el coche.",
             "Puis-je modifier mes informations personnelles ?": "¿Puedo modificar mi información personal?",
             "Oui, vous pouvez modifier vos informations dans les paramètres de votre compte.": "Sí, puede modificar su información en la configuración de su cuenta.",
@@ -361,15 +329,6 @@
             "Que faire en cas de comportement suspect d’un locataire ?": "¿Qué hacer en caso de comportamiento sospechoso de un arrendatario?",
             "Signalez immédiatement le problème à notre équipe de support.": "Repórtelo inmediatamente a nuestro equipo de soporte.",
             "Suis-je couvert en cas d'accident ?": "¿Estoy cubierto en caso de accidente?",
-          
-          
-
-
-
-
-
-
-        
             "Oui, notre assurance couvre les dommages accidentels.": "Sí, nuestro seguro cubre los daños accidentales.",
             "Comment souscrire une assurance ?": "¿Cómo contratar un seguro?",
             "L'assurance est incluse dans le processus de réservation.": "El seguro está incluido en el proceso de reserva.",
@@ -399,16 +358,8 @@
             "Comment connaître les conditions d’utilisation ?": "¿Cómo conocer los términos de uso?",
             "Les conditions d’utilisation sont disponibles dans le centre d’aide de l'application.": "Los términos de uso están disponibles en el centro de ayuda de la aplicación.",
             "Comment gérer mes droits et responsabilités ?": "¿Cómo gestionar mis derechos y responsabilidades?",
-            "Les informations sur vos droits et responsabilités sont disponibles dans nos conditions générales.": "La información sobre sus derechos y responsabilidades está disponible en nuestros términos y condiciones."
-          
-          
-  }
+            "Les informations sur vos droits et responsabilités sont disponibles dans nos conditions générales.": "La información sobre sus derechos y responsabilidades está disponible en nuestros términos y condiciones."       
 },
-
-
-
-
-
 "cookieBanner": {
     "message": "Este sitio utiliza cookies para mejorar su experiencia.",
     "policyLink": "Política de cookies",

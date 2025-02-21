@@ -205,182 +205,143 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-"aidePage":{
-
-
-
-
-
-    
-        "Comment pouvons-nous vous aider ?": "Come possiamo aiutarti?",
-        "Trouvez des réponses à vos questions ci-dessous ou utilisez la barre de recherche pour affiner votre recherche": "Trova le risposte alle tue domande qui sotto o usa la barra di ricerca per affinare la tua ricerca.",
-        "Tapez des mots-clés pour trouver des réponses": "Scrivi parole chiave per trovare risposte.",
-        "Hôtes": "Ospiti",
-        "Locataires": "Inquilini",
-        "Assurance": "Assicurazione",
-        "Légal": "Legale",
-      
-      
- "topics" : {
-   
-
-
+"aidePage": {
+  "Comment pouvons-nous vous aider ?": "Come possiamo aiutarti?",
+  "Trouvez des réponses à vos questions ci-dessous ou utilisez la barre de recherche pour affiner votre recherche": "Trova le risposte alle tue domande qui sotto o usa la barra di ricerca per affinare la tua ricerca.",
+  "Tapez des mots-clés pour trouver des réponses": "Digita parole chiave per trovare risposte",
+  "Hôtes": "Ospiti",
+  "Locataires": "Locatari",
+  "Assurance": "Assicurazione",
+  "Légal": "Legale",
+  "topics": {
     "Comment publier une voiture ?": "Come pubblicare un'auto?",
-    "Vous pouvez publier une voiture depuis votre tableau de bord.": "Puoi pubblicare un'auto dal tuo pannello di controllo.",
+    "Vous pouvez publier une voiture depuis votre tableau de bord": "Puoi pubblicare un'auto dal tuo cruscotto.",
     "Puis-je modifier ma publication ?": "Posso modificare il mio annuncio?",
-    "Oui, accédez à vos annonces pour les modifier.": "Sì, accedi ai tuoi annunci per modificarli.",
+    "Oui, accédez à vos annonces pour les modifier": "Sì, accedi ai tuoi annunci per modificarli.",
     "Comment supprimer une annonce ?": "Come eliminare un annuncio?",
-    "Accédez à vos annonces et supprimez celle que vous souhaitez.": "Accedi ai tuoi annunci e elimina quello che desideri.",
+    "Accédez à vos annonces et supprimez celle que vous souhaitez": "Accedi ai tuoi annunci e elimina quello che desideri.",
     "Combien de voitures puis-je publier ?": "Quante auto posso pubblicare?",
-    "Vous pouvez publier un nombre illimité de voitures.": "Puoi pubblicare un numero illimitato di auto.",
+    "Vous pouvez publier un nombre illimité de voitures": "Puoi pubblicare un numero illimitato di auto.",
     "Puis-je publier une voiture sans photo ?": "Posso pubblicare un'auto senza foto?",
-    "Non, des photos sont nécessaires pour publier une voiture.": "No, sono necessarie delle foto per pubblicare un'auto.",
-    "Comment ajouter des photos à mon annonce ?": "Come aggiungere delle foto al mio annuncio?",
-    "Dans votre tableau de bord, vous pouvez télécharger des photos pour chaque voiture.": "Nel tuo pannello di controllo, puoi caricare foto per ogni auto.",
+    "Non, des photos sont nécessaires pour publier une voiture": "No, sono necessarie delle foto per pubblicare un'auto.",
+    "Comment ajouter des photos à mon annonce ?": "Come aggiungere foto al mio annuncio?",
+    "Dans votre tableau de bord, vous pouvez télécharger des photos pour chaque voiture": "Nel tuo cruscotto, puoi caricare foto per ogni auto.",
     "Que faire si je veux modifier les informations d’une voiture ?": "Cosa fare se voglio modificare le informazioni di un'auto?",
-    "Accédez à vos annonces et modifiez les informations de la voiture.": "Accedi ai tuoi annunci e modifica le informazioni dell'auto.",
+    "Accédez à vos annonces et modifiez les informations de la voiture": "Accedi ai tuoi annunci e modifica le informazioni dell'auto.",
     "Comment gérer mes réservations ?": "Come gestire le mie prenotazioni?",
-    "Vous pouvez gérer vos réservations depuis votre tableau de bord.": "Puoi gestire le tue prenotazioni dal tuo pannello di controllo.",
+    "Vous pouvez gérer vos réservations depuis votre tableau de bord": "Puoi gestire le tue prenotazioni dal tuo cruscotto.",
     "Que faire si ma voiture est endommagée pendant une réservation ?": "Cosa fare se la mia auto viene danneggiata durante una prenotazione?",
-    "Contactez notre équipe de support et nous vous aiderons à résoudre le problème.": "Contatta il nostro team di supporto e ti aiuteremo a risolvere il problema.",
-    "Accédez à vos réservations et sélectionnez l'option pour annuler.": "Accedi alle tue prenotazioni e seleziona l'opzione per annullare.",
-    "Que faire si un locataire annule à la dernière minute ?": "Cosa fare se un locatario cancella all'ultimo minuto?",
-    "Contactez notre équipe de support pour obtenir de l’aide.": "Contatta il nostro team di supporto per ricevere aiuto.",
-    "Puis-je définir des conditions particulières pour la location ?": "Posso impostare condizioni particolari per il noleggio?",
-    "Oui, vous pouvez définir des conditions dans l'annonce.": "Sì, puoi impostare condizioni nell'annuncio.",
+    "Contactez notre équipe de support et nous vous aiderons à résoudre le problème": "Contatta il nostro team di supporto e ti aiuteremo a risolvere il problema.",
+    "Accédez à vos réservations et sélectionnez l'option pour annuler": "Accedi alle tue prenotazioni e seleziona l'opzione per annullare.",
+    "Que faire si un locataire annule à la dernière minute ?": "Cosa fare se un locatario annulla all'ultimo minuto?",
+    "Contactez notre équipe de support pour obtenir de l’aide": "Contatta il nostro team di supporto per ricevere aiuto.",
+    "Puis-je définir des conditions particulières pour la location ?": "Posso definire delle condizioni particolari per il noleggio?",
+    "Oui, vous pouvez définir des conditions dans l'annonce": "Sì, puoi definire delle condizioni nell'annuncio.",
     "Comment voir les réservations à venir ?": "Come vedere le prenotazioni future?",
-    "Dans votre tableau de bord, vous trouverez toutes vos réservations à venir.": "Nel tuo pannello di controllo, troverai tutte le tue prenotazioni future.",
+    "Dans votre tableau de bord, vous trouverez toutes vos réservations à venir": "Nel tuo cruscotto troverai tutte le tue prenotazioni future.",
     "Comment voir les avis laissés par les locataires ?": "Come vedere le recensioni lasciate dai locatari?",
-    "Les avis sont visibles dans la section des réservations passées.": "Le recensioni sono visibili nella sezione delle prenotazioni passate.",
+    "Les avis sont visibles dans la section des réservations passées": "Le recensioni sono visibili nella sezione delle prenotazioni passate.",
     "Comment gérer mes prix de location ?": "Come gestire i miei prezzi di noleggio?",
-    "Vous pouvez ajuster les prix depuis votre tableau de bord.": "Puoi regolare i prezzi dal tuo pannello di controllo.",
-
-
-        
-            "Puis-je refuser une réservation ?": "Posso rifiutare una prenotazione?",
-            "Oui, vous pouvez refuser une réservation en accédant à votre tableau de bord.": "Sì, puoi rifiutare una prenotazione accedendo al tuo pannello di controllo.",
-            "Comment faire la vérification des documents d’un locataire ?": "Come fare la verifica dei documenti di un locatario?",
-            "Nous vérifions les documents avant chaque réservation, vous n'avez rien à faire.": "Verifichiamo i documenti prima di ogni prenotazione, non devi fare nulla.",
-            "Que faire si un locataire ne me rend pas la voiture à temps ?": "Cosa fare se un locatario non restituisce l'auto in tempo?",
-            "Contactez le locataire et, si nécessaire, contactez notre équipe de support.": "Contatta il locatario e, se necessario, contatta il nostro team di supporto.",
-            "Comment savoir si la voiture est assurée ?": "Come sapere se l'auto è assicurata?",
-            "L’assurance est incluse dans chaque réservation, vous pouvez vérifier dans les détails de la réservation.": "L'assicurazione è inclusa in ogni prenotazione, puoi verificarla nei dettagli della prenotazione.",
-            "Comment mettre en pause mes annonces ?": "Come mettere in pausa i miei annunci?",
-            "Contactez notre équipe via le centre d’aide de l’application": "Contatta il nostro team tramite il centro assistenza dell'app.",
-            "Dans votre tableau de bord, vous pouvez mettre en pause vos annonces.": "Nel tuo pannello di controllo puoi mettere in pausa i tuoi annunci.",
-            "Comment réserver une voiture ?": "Come prenotare un'auto?",
-            "Recherchez une voiture et cliquez sur le bouton réserver.": "Cerca un'auto e clicca sul pulsante prenota.",
-            "Que faire en cas de retard ?": "Cosa fare in caso di ritardo?",
-            "Comment contacter le support en cas de problème avec un locataire ?": "Come contattare il supporto in caso di problemi con un locatario?",
-            "Que faire si un locataire a un comportement inapproprié ?": "Cosa fare se un locatario ha un comportamento inappropriato?",
-            "Contactez l'hôte pour l'informer du retard.": "Contatta l'host per informarlo del ritardo.",
-            "Comment signaler un problème avec un locataire ?": "Come segnalare un problema con un locatario?",
-            "Comment savoir si la voiture est disponible ?": "Come sapere se l'auto è disponibile?",
-            "Utilisez notre formulaire de contact pour nous signaler tout problème.": "Usa il nostro modulo di contatto per segnalarci qualsiasi problema.",
-            "Contactez notre équipe de support et nous prendrons les mesures nécessaires.": "Contatta il nostro team di supporto e prenderemo le misure necessarie.",
-            "La disponibilité de la voiture est indiquée sur la page de l'annonce.": "La disponibilità dell'auto è indicata nella pagina dell'annuncio.",
-            "Que faire si l’hôte annule la réservation ?": "Cosa fare se l'host annulla la prenotazione?",
-            "Nous vous proposerons une alternative ou un remboursement.": "Ti offriremo una soluzione alternativa o un rimborso.",
-            "Comment changer la date de ma réservation ?": "Come cambiare la data della mia prenotazione?",
-            "Vous pouvez changer la date dans votre tableau de bord, sous l'option 'Modifier la réservation'.": "Puoi cambiare la data nel tuo pannello di controllo, sotto l'opzione 'Modifica prenotazione'.",
-            "Que faire si la voiture n'est pas comme décrite dans l'annonce ?": "Cosa fare se l'auto non è come descritta nell'annuncio?",
-            "Contactez l'hôte et, si nécessaire, notre support.": "Contatta l'host e, se necessario, il nostro supporto.",
-            "Comment récupérer la voiture après avoir réservé ?": "Come ritirare l'auto dopo aver prenotato?",
-          
-          
-
-        
-    
-        "L'hôte vous fournira les instructions pour récupérer la voiture.": "L'host ti fornirà le istruzioni per ritirare l'auto.",
-        "Puis-je modifier mes informations personnelles ?": "Posso modificare le mie informazioni personali?",
-        "Oui, vous pouvez modifier vos informations dans les paramètres de votre compte.": "Sì, puoi modificare le tue informazioni nelle impostazioni del tuo account.",
-        "Comment obtenir une facture pour ma location ?": "Come ottenere una fattura per il mio noleggio?",
-        "La facture vous sera envoyée après la fin de votre réservation.": "La fattura ti verrà inviata dopo la fine della tua prenotazione.",
-        "Comment faire une réservation pour un autre utilisateur ?": "Come fare una prenotazione per un altro utente?",
-        "Vous pouvez réserver au nom de quelqu'un d'autre depuis votre tableau de bord.": "Puoi prenotare a nome di qualcun altro dal tuo pannello di controllo.",
-        "Que faire si la voiture a un problème pendant la location ?": "Cosa fare se l'auto ha un problema durante il noleggio?",
-        "Contactez l'hôte ou notre support pour obtenir de l'aide.": "Contatta l'host o il nostro supporto per ricevere aiuto.",
-        "Puis-je prolonger ma location ?": "Posso prolungare il mio noleggio?",
-        "Oui, vous pouvez prolonger votre location en contactant l'hôte.": "Sì, puoi prolungare il tuo noleggio contattando l'host.",
-        "Comment annuler une réservation ?": "Come annullare una prenotazione?",
-        "Vous pouvez annuler une réservation depuis votre tableau de bord.": "Puoi annullare una prenotazione dal tuo pannello di controllo.",
-        "Que faire si la voiture n’est pas disponible lors de la réservation ?": "Cosa fare se l'auto non è disponibile durante la prenotazione?",
-        "Contactez notre équipe de support pour vous aider à trouver une solution.": "Contatta il nostro team di supporto per aiutarti a trovare una soluzione.",
-        "Comment évaluer un hôte ?": "Come valutare un host?",
-        "Vous pouvez évaluer l'hôte après chaque location depuis la page de la réservation.": "Puoi valutare l'host dopo ogni noleggio dalla pagina della prenotazione.",
-        "Que faire si le locataire ne respecte pas les règles ?": "Cosa fare se il locatario non rispetta le regole?",
-        "Signalez-le à notre support via le centre d'aide.": "Segnalalo al nostro supporto tramite il centro assistenza.",
-        "Comment savoir si la voiture a une assurance ?": "Come sapere se l'auto ha un'assicurazione?",
-        "L'assurance est incluse dans le processus de réservation et est visible sur la page de la réservation.": "L'assicurazione è inclusa nel processo di prenotazione ed è visibile sulla pagina della prenotazione.",
-        "Comment vérifier que le locataire a bien validé ses documents ?": "Come verificare che il locatario abbia convalidato i suoi documenti?",
-        "Nous vérifions tous les documents avant chaque réservation.": "Verifichiamo tutti i documenti prima di ogni prenotazione.",
-        "Que faire si je perds mes clés pendant la location ?": "Cosa fare se perdo le chiavi durante il noleggio?",
-        "Contactez l'hôte ou notre équipe de support pour obtenir de l'aide.": "Contatta l'host o il nostro team di supporto per ricevere aiuto.",
-        "Comment savoir si mon paiement a bien été effectué ?": "Come sapere se il mio pagamento è stato effettuato correttamente?",
-        "Vous recevrez une confirmation par email une fois le paiement effectué.": "Riceverai una conferma via email una volta che il pagamento sia stato effettuato.",
-        "Que faire en cas de comportement suspect d’un locataire ?": "Cosa fare in caso di comportamento sospetto da parte di un locatario?",
-        "Signalez immédiatement le problème à notre équipe de support.": "Segnala immediatamente il problema al nostro team di supporto.",
-        "Suis-je couvert en cas d'accident ?": "Sono coperto in caso di incidente?",
-      
-      
-          
-
-
-
-
-
-
-            
-                "Oui, notre assurance couvre les dommages accidentels.": "Sì, la nostra assicurazione copre i danni accidentali.",
-                "Comment souscrire une assurance ?": "Come sottoscrivere un'assicurazione?",
-                "L'assurance est incluse dans le processus de réservation.": "L'assicurazione è inclusa nel processo di prenotazione.",
-                "Que faire si j’ai un accident pendant ma location ?": "Cosa fare se ho un incidente durante il mio noleggio?",
-                "Contactez notre support immédiatement et suivez les instructions.": "Contatta immediatamente il nostro supporto e segui le istruzioni.",
-                "L'assurance couvre-t-elle les dommages causés par le locataire ?": "L'assicurazione copre i danni causati dal locatario?",
-                "Oui, l'assurance couvre les dommages causés par le locataire.": "Sì, l'assicurazione copre i danni causati dal locatario.",
-                "Puis-je choisir une assurance différente ?": "Posso scegliere un'assicurazione diversa?",
-                "Non, l'assurance fournie est obligatoire et incluse dans la réservation.": "No, l'assicurazione fornita è obbligatoria e inclusa nella prenotazione.",
-                "L’assurance est-elle incluse dans toutes les réservations ?": "L'assicurazione è inclusa in tutte le prenotazioni?",
-                "Oui, l'assurance est incluse dans chaque réservation.": "Sì, l'assicurazione è inclusa in ogni prenotazione.",
-                "Contactez immédiatement notre support pour obtenir des instructions.": "Contatta immediatamente il nostro supporto per ricevere istruzioni.",
-                "Comment vérifier ma couverture d'assurance ?": "Come verificare la mia copertura assicurativa?",
-                "Vous pouvez vérifier les détails de l'assurance dans votre réservation.": "Puoi verificare i dettagli dell'assicurazione nella tua prenotazione.",
-                "Est-ce que l’assurance couvre la perte de la voiture ?": "L'assicurazione copre la perdita dell'auto?",
-                "L'assurance couvre la perte de la voiture sous certaines conditions. Veuillez consulter les termes de l'assurance.": "L'assicurazione copre la perdita dell'auto in determinate condizioni. Si prega di consultare i termini dell'assicurazione.",
-                "Que faire si j’ai un accident et que je ne sais pas comment procéder ?": "Cosa fare se ho un incidente e non so come procedere?",
-                "Contactez immédiatement notre équipe de support pour vous guider dans les démarches.": "Contatta immediatamente il nostro team di supporto per essere guidato nelle procedure.",
-                "Comment déposer une réclamation d'assurance ?": "Come presentare una richiesta di risarcimento?",
-                "Vous pouvez soumettre une réclamation via notre centre d’aide.": "Puoi inviare una richiesta tramite il nostro centro assistenza.",
-                "Quelles sont les conditions générales ?": "Quali sono i termini e le condizioni?",
-                "Consultez nos conditions générales sur notre site web.": "Consulta i nostri termini e condizioni sul nostro sito web.",
-                "Comment signaler un problème ?": "Come segnalare un problema?",
-                "Utilisez notre formulaire de contact pour signaler un problème.": "Usa il nostro modulo di contatto per segnalare un problema.",
-                "Que faire si j’ai un problème légal ?": "Cosa fare se ho un problema legale?",
-                "Contactez notre équipe juridique via le formulaire de contact.": "Contatta il nostro team legale tramite il modulo di contatto.",
-                "Comment connaître les conditions d’utilisation ?": "Come conoscere i termini di utilizzo?",
-                "Les conditions d’utilisation sont disponibles dans le centre d’aide de l'application.": "I termini di utilizzo sono disponibili nel centro assistenza dell'app.",
-                "Comment gérer mes droits et responsabilités ?": "Come gestire i miei diritti e le mie responsabilità?",
-                "Les informations sur vos droits et responsabilités sont disponibles dans nos conditions générales.": "Le informazioni sui tuoi diritti e responsabilità sono disponibili nei nostri termini e condizioni."
-              
-              
-          
+    "Vous pouvez ajuster les prix depuis votre tableau de bord": "Puoi regolare i prezzi dal tuo cruscotto.",
+    "Puis-je refuser une réservation ?": "Posso rifiutare una prenotazione?",
+    "Oui, vous pouvez refuser une réservation en accédant à votre tableau de bord": "Sì, puoi rifiutare una prenotazione accedendo al tuo cruscotto.",
+    "Comment faire la vérification des documents d’un locataire ?": "Come fare la verifica dei documenti di un locatario?",
+    "Nous vérifions les documents avant chaque réservation, vous n'avez rien à faire": "Verifichiamo i documenti prima di ogni prenotazione, non devi fare nulla.",
+    "Que faire si un locataire ne me rend pas la voiture à temps ?": "Cosa fare se un locatario non mi restituisce l'auto in tempo?",
+    "Contactez le locataire et, si nécessaire, contactez notre équipe de support": "Contatta il locatario e, se necessario, contatta il nostro team di supporto.",
+    "Comment savoir si la voiture est assurée ?": "Come sapere se l'auto è assicurata?",
+    "L’assurance est incluse dans chaque réservation, vous pouvez vérifier dans les détails de la réservation": "L'assicurazione è inclusa in ogni prenotazione, puoi verificarlo nei dettagli della prenotazione.",
+    "Comment mettre en pause mes annonces ?": "Come mettere in pausa i miei annunci?",
+    "Contactez notre équipe via le centre d’aide de l’application": "Contatta il nostro team tramite il centro assistenza dell'app.",
+    "Dans votre tableau de bord, vous pouvez mettre en pause vos annonces": "Nel tuo cruscotto, puoi mettere in pausa i tuoi annunci.",
+    "Comment réserver une voiture ?": "Come prenotare un'auto?",
+    "Recherchez une voiture et cliquez sur le bouton réserver": "Cerca un'auto e clicca sul pulsante per prenotare.",
+    "Que faire en cas de retard ?": "Cosa fare in caso di ritardo?",
+    "Comment contacter le support en cas de problème avec un locataire ?": "Come contattare il supporto in caso di problema con un locatario?",
+    "Que faire si un locataire a un comportement inapproprié ?": "Cosa fare se un locatario ha un comportamento inappropriato?",
+    "Contactez l'hôte pour l'informer du retard": "Contatta l'ospite per informarlo del ritardo.",
+    "Comment signaler un problème avec un locataire ?": "Come segnalare un problema con un locatario?",
+    "Comment savoir si la voiture est disponible ?": "Come sapere se l'auto è disponibile?",
+    "Utilisez notre formulaire de contact pour nous signaler tout problème": "Usa il nostro modulo di contatto per segnalarci qualsiasi problema.",
+    "Contactez notre équipe de support et nous prendrons les mesures nécessaires": "Contatta il nostro team di supporto e prenderemo le misure necessarie.",
+    "La disponibilité de la voiture est indiquée sur la page de l'annonce": "La disponibilità dell'auto è indicata nella pagina dell'annuncio.",
+    "Que faire si l’hôte annule la réservation ?": "Cosa fare se l'ospite annulla la prenotazione?",
+    "Nous vous proposerons une alternative ou un remboursement": "Ti proporremo un'alternativa o un rimborso.",
+    "Comment changer la date de ma réservation ?": "Come cambiare la data della mia prenotazione?",
+    "Vous pouvez changer la date dans votre tableau de bord, sous l'option 'Modifier la réservation'": "Puoi cambiare la data dal tuo cruscotto, sotto l'opzione 'Modifica la prenotazione'.",
+    "Que faire si la voiture n'est pas comme décrite dans l'annonce ?": "Cosa fare se l'auto non è come descritta nell'annuncio?",
+    "Contactez l'hôte et, si nécessaire, notre support": "Contatta l'ospite e, se necessario, il nostro supporto.",
+    "Comment récupérer la voiture après avoir réservé ?": "Come ritirare l'auto dopo aver prenotato?",
+    "L'hôte vous fournira les instructions pour récupérer la voiture": "L'ospite ti fornirà le istruzioni per ritirare l'auto.",
+    "Puis-je modifier mes informations personnelles ?": "Posso modificare le mie informazioni personali?",
+    "Oui, vous pouvez modifier vos informations dans les paramètres de votre compte": "Sì, puoi modificare le tue informazioni nelle impostazioni del tuo account.",
+    "Comment obtenir une facture pour ma location ?": "Come ottenere una fattura per il mio noleggio?",
+    "La facture vous sera envoyée après la fin de votre réservation": "La fattura ti sarà inviata dopo la fine della tua prenotazione.",
+    "Comment faire une réservation pour un autre utilisateur ?": "Come fare una prenotazione per un altro utente?",
+    "Vous pouvez réserver au nom de quelqu'un d'autre depuis votre tableau de bord": "Puoi prenotare a nome di qualcun altro dal tuo cruscotto.",
+    "Que faire si la voiture a un problème pendant la location ?": "Cosa fare se l'auto ha un problema durante il noleggio?",
+    "Contactez l'hôte ou notre support pour obtenir de l'aide": "Contatta l'ospite o il nostro supporto per ricevere assistenza.",
+    "Puis-je prolonger ma location ?": "Posso prolungare il mio noleggio?",
+    "Oui, vous pouvez prolonger votre location en contactant l'hôte": "Sì, puoi prolungare il tuo noleggio contattando l'ospite.",
+    "Comment annuler une réservation ?": "Come annullare una prenotazione?",
+    "Vous pouvez annuler une réservation depuis votre tableau de bord": "Puoi annullare una prenotazione dal tuo cruscotto.",
+    "Que faire si la voiture n’est pas disponible lors de la réservation ?": "Cosa fare se l'auto non è disponibile al momento della prenotazione?",
+    "Contactez notre équipe de support pour vous aider à trouver une solution": "Contatta il nostro team di supporto per aiutarti a trovare una soluzione.",
+    "Comment évaluer un hôte ?": "Come valutare un ospite?",
+    "Vous pouvez évaluer l'hôte après chaque location depuis la page de la réservation": "Puoi valutare l'ospite dopo ogni noleggio dalla pagina della prenotazione.",
+    "Que faire si le locataire ne respecte pas les règles ?": "Cosa fare se il locatario non rispetta le regole?",
+    "Signalez-le à notre support via le centre d'aide": "Segnalalo al nostro supporto tramite il centro assistenza.",
+    "Comment savoir si la voiture a une assurance ?": "Come sapere se l'auto ha un'assicurazione?",
+    "L'assurance est incluse dans le processus de réservation et est visible sur la page de la réservation": "L'assicurazione è inclusa nel processo di prenotazione ed è visibile sulla pagina della prenotazione.",
+    "Comment vérifier que le locataire a bien validé ses documents ?": "Come verificare che il locatario abbia validato i suoi documenti?",
+    "Nous vérifions tous les documents avant chaque réservation": "Verifichiamo tutti i documenti prima di ogni prenotazione.",
+    "Que faire si je perds mes clés pendant la location ?": "Cosa fare se perdo le chiavi durante il noleggio?",
+    "Contactez l'hôte ou notre équipe de support pour obtenir de l'aide": "Contatta l'ospite o il nostro team di supporto per ricevere assistenza.",
+    "Comment savoir si mon paiement a bien été effectué ?": "Come sapere se il mio pagamento è stato effettuato correttamente?",
+    "Vous recevrez une confirmation par email une fois le paiement effectué": "Riceverai una conferma via email una volta effettuato il pagamento.",
+    "Que faire en cas de comportement suspect d’un locataire ?": "Cosa fare in caso di comportamento sospetto di un locatario?",
+    "Signalez immédiatement le problème à notre équipe de support": "Segnala immediatamente il problema al nostro team di supporto.",
+    "Suis-je couvert en cas d'accident ?": "Sono coperto in caso di incidente?",
+    "Oui, notre assurance couvre les dommages accidentels": "Sì, la nostra assicurazione copre i danni accidentali.",
+    "Comment souscrire une assurance ?": "Come sottoscrivere un'assicurazione?",
+    "L'assurance est incluse dans le processus de réservation": "L'assicurazione è inclusa nel processo di prenotazione.",
+    "Que faire si j’ai un accident pendant ma location ?": "Cosa fare se ho un incidente durante il mio noleggio?",
+    "Contactez notre support immédiatement et suivez les instructions": "Contatta il nostro supporto immediatamente e segui le istruzioni.",
+    "L'assurance couvre-t-elle les dommages causés par le locataire ?": "L'assicurazione copre i danni causati dal locatario?",
+    "Oui, l'assurance couvre les dommages causés par le locataire": "Sì, l'assicurazione copre i danni causati dal locatario.",
+    "Puis-je choisir une assurance différente ?": "Posso scegliere un'assicurazione diversa?",
+    "Non, l'assurance fournie est obligatoire et incluse dans la réservation": "No, l'assicurazione fornita è obbligatoria e inclusa nella prenotazione.",
+    "L’assurance est-elle incluse dans toutes les réservations ?": "L'assicurazione è inclusa in tutte le prenotazioni?",
+    "Oui, l'assurance est incluse dans chaque réservation": "Sì, l'assicurazione è inclusa in ogni prenotazione.",
+    "Contactez immédiatement notre support pour obtenir des instructions": "Contatta immediatamente il nostro supporto per ricevere istruzioni.",
+    "Comment vérifier ma couverture d'assurance ?": "Come verificare la mia copertura assicurativa?",
+    "Vous pouvez vérifier les détails de l'assurance dans votre réservation": "Puoi verificare i dettagli dell'assicurazione nella tua prenotazione.",
+    "Est-ce que l’assurance couvre la perte de la voiture ?": "L'assicurazione copre la perdita dell'auto?",
+    "L'assurance couvre la perte de la voiture sous certaines conditions Veuillez consulter les termes de l'assurance": "L'assicurazione copre la perdita dell'auto a determinate condizioni. Consulta i termini dell'assicurazione.",
+    "Que faire si j’ai un accident et que je ne sais pas comment procéder ?": "Cosa fare se ho un incidente e non so come procedere?",
+    "Contactez immédiatement notre équipe de support pour vous guider dans les démarches": "Contatta immediatamente il nostro team di supporto per essere guidato nelle procedure.",
+    "Comment déposer une réclamation d'assurance ?": "Come presentare una richiesta di assicurazione?",
+    "Vous pouvez soumettre une réclamation via notre centre d’aide": "Puoi inviare una richiesta tramite il nostro centro assistenza.",
+    "Quelles sont les conditions générales ?": "Quali sono i termini e le condizioni?",
+    "Consultez nos conditions générales sur notre site web": "Consulta i nostri termini e condizioni sul nostro sito web.",
+    "Comment signaler un problème ?": "Come segnalare un problema?",
+    "Utilisez notre formulaire de contact pour signaler un problème": "Usa il nostro modulo di contatto per segnalare un problema.",
+    "Que faire si j’ai un problème légal ?": "Cosa fare se ho un problema legale?",
+    "Contactez notre équipe juridique via le formulaire de contact": "Contatta il nostro team legale tramite il modulo di contatto.",
+    "Comment connaître les conditions d’utilisation ?": "Come conoscere le condizioni d'uso?",
+    "Les conditions d’utilisation sont disponibles dans le centre d’aide de l'application": "I termini di utilizzo sono disponibili nel centro assistenza dell'app.",
+    "Comment gérer mes droits et responsabilités ?": "Come gestire i miei diritti e responsabilità?",
+    "Les informations sur vos droits et responsabilités sont disponibles dans nos conditions générales": "Le informazioni sui tuoi diritti e responsabilità sono disponibili nei nostri termini e condizioni."
   }
-},
+}
+,
+
+
+
+
+
+
+
 
 
 

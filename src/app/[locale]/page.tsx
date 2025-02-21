@@ -156,7 +156,7 @@ export default function Page() {
 
   return (
     <div>
-      <Alert />
+      
 
       <div className={myFont.className}>
         <header className="bg-gray-500 bg-opacity-5 fixed backdrop-blur-lg rounded-xl border border-white/20  mb-12 w-full py-0.5 px-2 shadow-sm">

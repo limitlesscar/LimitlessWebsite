@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import { useLocale } from 'next-intl';
 
-type LanguageKeys = 'en' | 'es' | 'ita' | 'ja' | 'ru' | 'pt' | 'fr';
+type LanguageKeys = 'en' | 'es' | 'it' | 'ja' | 'ru' | 'pt' | 'fr';
 
 const languages: Record<LanguageKeys, { searchPlaceholder: string; noResults: string; items: { name: string; link: string; }[] }> = {
   en: {
@@ -29,7 +29,7 @@ const languages: Record<LanguageKeys, { searchPlaceholder: string; noResults: st
       { name: 'Contacto', link: '/aide' },
     ],
   },
-  ita: {
+  it: {
     searchPlaceholder: 'Cerca...',
     noResults: 'Nessun risultato trovato',
     items: [
@@ -90,15 +90,17 @@ export default function SearchBar() {
   const locale = useLocale();  // Get current locale from useLocale hook
   const [searchQuery, setSearchQuery] = useState('');
   const [isSearchOpen, setIsSearchOpen] = useState(false);
-
   const currentLanguage = locale as LanguageKeys;  // Use the current locale as the language key
+  const placeholderText = languages[currentLanguage]?.searchPlaceholder || 'Search...';
+
 
   const toggleSearch = () => setIsSearchOpen((prev) => !prev);
 
-  const filteredItems = languages[currentLanguage].items.filter((item) =>
+  const filteredItems = languages[currentLanguage]?.items?.filter((item) =>
     item.name.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
+  
   return (
     <>
       {/* Search Button */}
@@ -139,14 +141,16 @@ export default function SearchBar() {
         {/* Search Input */}
         <div className="flex items-center bg-gray-100 bg-opacity-50 border border-gray-300 rounded-full px-4 py-3 shadow-sm backdrop-blur-sm">
           <MagnifyingGlassIcon className="w-6 h-6 text-gray-500" />
-          <input
-            type="text"
-            className="ml-3 w-full bg-transparent focus:outline-none text-gray-900 placeholder-gray-500 text-lg"
-            placeholder={languages[currentLanguage].searchPlaceholder}
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            autoFocus
-          />
+
+<input
+  type="text"
+  className="ml-3 w-full bg-transparent focus:outline-none text-gray-900 placeholder-gray-500 text-lg"
+  placeholder={placeholderText}
+  value={searchQuery}
+  onChange={(e) => setSearchQuery(e.target.value)}
+  autoFocus
+/>
+
         </div>
 
         {/* Search Results */}
@@ -177,4 +181,7 @@ export default function SearchBar() {
     </>
   );
 }
+
+
+
 

@@ -1,11 +1,10 @@
-// Import necessary modules
 import { Metadata } from "next";
 import localFont from "next/font/local";
 import "../globals.css";
-import { getMessages } from "next-intl/server"; // Removing the locale-based logic
+import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 
-// Load custom font
+// Load custom font (client-side only)
 const myFont = localFont({ src: "./font/Poppins-SemiBold.ttf" });
 
 export const metadata: Metadata = {
@@ -19,32 +18,32 @@ export const metadata: Metadata = {
 // Define Props type
 type Props = {
   children: React.ReactNode;
+  locale: string;  // Dynamic locale passed here
 };
 
 // Async function for RootLayout
 export default async function RootLayout({
   children,
-}: Readonly<Props>) {
-  // Fetch messages for the default language (you can set this to a static locale)
+  locale,
+}: Props) {  // Remove Readonly here
+  // Fetch messages based on the dynamic locale (server-side operation)
   let messages;
   try {
-    messages = await getMessages(); // Default messages
+    messages = await getMessages({ locale }); // Use dynamic locale
   } catch (error) {
     console.error("Failed to load messages", error);
     return <p>Error loading content</p>; // Show an error message if messages can't be loaded
   }
 
-  // Set a default direction (e.g., left-to-right as default)
-  const direction = "ltr";
+  // Determine text direction based on locale (e.g., 'rtl' for Arabic)
+  const direction = locale === 'ar' ? 'rtl' : 'ltr';
 
   return (
-    <html lang="en" dir={direction}> {/* Default to English */}
+    <html lang={locale} dir={direction}>
       <head>
-        {/* Add favicon */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className={`${myFont.className} antialiased`}>
-        {/* Provide messages to the app via NextIntlClientProvider */}
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>

@@ -15,17 +15,14 @@ export const metadata: Metadata = {
   },
 };
 
-// Define Props type
+// Define Props type with React.FC for functional component
 type Props = {
   children: React.ReactNode;
-  locale: string;  // Dynamic locale passed here
+  locale: string; // Dynamic locale passed here
 };
 
-// Async function for RootLayout
-export default async function RootLayout({
-  children,
-  locale,
-}: Props) {
+// RootLayout is an async function for data fetching, handle children and locale props properly
+export default async function RootLayout({ children, locale }: Props) {
   // Fetch messages based on the dynamic locale (server-side operation)
   let messages;
   try {
@@ -51,3 +48,4 @@ export default async function RootLayout({
     </html>
   );
 }
+

@@ -115,7 +115,9 @@
 
   "posts": {
     "ge": "Scarica l'app su Play Store o App Store ",
-
+"test_box_title": "Box di test",
+  "app_ready_message": "Questa applicazione è pronta per i test ed è quasi pronta per l'Apple Store e l'App Store. Stiamo attualmente traducendo, cambiando le animazioni e aggiungendo altre funzionalità. Questa versione è per permetterti di testare la versione beta, ma stiamo aggiungendo ancora più funzionalità.",
+  "run_test": "Avvia il test",
     "home": "Home",
      "launchInFrance": "Abbiamo lanciato in Francia per tutti!",
     "excitedToHelp": "Siamo entusiasti di aiutarti a guadagnare denaro.",

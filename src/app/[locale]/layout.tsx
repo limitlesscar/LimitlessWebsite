@@ -18,18 +18,16 @@ export const metadata: Metadata = {
 // Define Props type
 type Props = {
   children: React.ReactNode;
-  params: {
-    locale: string;  // Dynamic locale passed here
-  };
+  locale: string;  // Dynamic locale passed here
+  params: { locale: string }; // Add params to match expected type
 };
 
 // Async function for RootLayout
-export default async function RootLayout({
+export default async function Layout({
   children,
-  params,
+  locale,
+  params, // Include params in the destructured props
 }: Props) {
-  const { locale } = params; // Extract locale from params
-
   // Fetch messages based on the dynamic locale (server-side operation)
   let messages;
   try {
@@ -38,12 +36,8 @@ export default async function RootLayout({
     console.error("Failed to load messages", error);
     return <p>Error loading content</p>; // Show an error message if messages can't be loaded
   }
-
-  // Determine text direction based on locale (e.g., 'rtl' for Arabic)
-  const direction = locale === 'ar' ? 'rtl' : 'ltr';
-
   return (
-    <html lang={locale} dir={direction}>
+    <html lang={locale} >
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>

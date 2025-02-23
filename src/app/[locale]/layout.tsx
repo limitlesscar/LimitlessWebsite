@@ -22,10 +22,11 @@ type Props = {
   params: { locale: string };
 };
 
+// Modify the RootLayout to work with async/await and properly destructure params
 export default async function RootLayout({
   children,
   params: { locale },
-}: Readonly<Props>) {
+}: Props) {
   // Ensure that the incoming `locale` is valid
   if (!routing.locales.includes(locale)) {
     notFound();
@@ -52,3 +53,4 @@ export default async function RootLayout({
     </html>
   );
 }
+

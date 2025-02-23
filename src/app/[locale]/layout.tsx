@@ -1,8 +1,6 @@
 import { Metadata } from "next";
 import localFont from "next/font/local";
 import "../globals.css";
-import { getMessages } from "next-intl/server";
-import { NextIntlClientProvider } from "next-intl";
 
 // Load custom font (client-side only)
 const myFont = localFont({ src: "./font/Poppins-SemiBold.ttf" });
@@ -15,36 +13,21 @@ export const metadata: Metadata = {
   },
 };
 
-// Define Props type
+// Define Props type with any for children
 type Props = {
-  children: React.ReactNode;
+  children: any;  // Allow any type for children
   locale: string;  // Dynamic locale passed here
-  params: { locale: string }; // Add params to match expected type
 };
 
-// Async function for RootLayout
-export default async function Layout({
-  children,
-  locale,
-  params, // Include params in the destructured props
-}: Props) {
-  // Fetch messages based on the dynamic locale (server-side operation)
-  let messages;
-  try {
-    messages = await getMessages({ locale }); // Use dynamic locale
-  } catch (error) {
-    console.error("Failed to load messages", error);
-    return <p>Error loading content</p>; // Show an error message if messages can't be loaded
-  }
+// Layout component
+export default function Layout({ children }: Props) {
   return (
-    <html lang={locale} >
+    <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className={`${myFont.className} antialiased`}>
-        <NextIntlClientProvider messages={messages}>
-          {children}
-        </NextIntlClientProvider>
+        {children}
       </body>
     </html>
   );

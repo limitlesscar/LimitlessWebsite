@@ -1,48 +1,47 @@
 import { Metadata } from "next";
 import localFont from "next/font/local";
 import "../globals.css";
-import { getMessages, setRequestLocale } from "next-intl/server";
-import { notFound } from "next/navigation";
-import { routing } from "@/i18n/routing";
+import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 
-// Load custom Poppins font
-const myFont = localFont({ src: './font/Poppins-SemiBold.ttf' });
+// Load custom font (client-side only)
+const myFont = localFont({ src: "./font/Poppins-SemiBold.ttf" });
 
 export const metadata: Metadata = {
-  title: "limitless",
+  title: "Limitless",
   description: "Louer une voiture",
   icons: {
     icon: "/favicon.ico", // Path relative to the public folder
   },
 };
 
+// Define Props type
 type Props = {
   children: React.ReactNode;
-  params: { locale: string };
+  locale: string;  // Dynamic locale passed here
 };
 
-// Modify the RootLayout to work with async/await and properly destructure params
+// Async function for RootLayout
 export default async function RootLayout({
   children,
-  params: { locale },
-}: Props) {
-  // Ensure that the incoming `locale` is valid
-  if (!routing.locales.includes(locale)) {
-    notFound();
+  locale,
+}: Readonly<Props>) {
+}: Props) {  // Remove Readonly here
+  // Fetch messages based on the dynamic locale (server-side operation)
+  let messages;
+  try {
+    messages = await getMessages({ locale }); // Use dynamic locale
+  } catch (error) {
+    console.error("Failed to load messages", error);
+    return <p>Error loading content</p>; // Show an error message if messages can't be loaded
   }
 
-  // Enable static rendering
-  setRequestLocale(locale);
-  const messages = await getMessages();
-
-  // Determine text direction based on locale
-  const direction = locale === "ar" ? "rtl" : "ltr";
+  // Determine text direction based on locale (e.g., 'rtl' for Arabic)
+  const direction = locale === 'ar' ? 'rtl' : 'ltr';
 
   return (
     <html lang={locale} dir={direction}>
       <head>
-        {/* Add the favicon */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className={`${myFont.className} antialiased`}>

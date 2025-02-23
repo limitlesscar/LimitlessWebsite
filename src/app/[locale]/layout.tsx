@@ -19,15 +19,17 @@ export const metadata: Metadata = {
 type Props = {
   children: React.ReactNode;
   params: {
-    locale: string; // Dynamic locale passed here
+    locale: string;  // Dynamic locale passed here
   };
 };
 
 // Async function for RootLayout
 export default async function RootLayout({
   children,
-  params: { locale },
+  params,
 }: Props) {
+  const { locale } = params; // Extract locale from params
+
   // Fetch messages based on the dynamic locale (server-side operation)
   let messages;
   try {
@@ -38,7 +40,7 @@ export default async function RootLayout({
   }
 
   // Determine text direction based on locale (e.g., 'rtl' for Arabic)
-  const direction = locale === "ar" ? "rtl" : "ltr";
+  const direction = locale === 'ar' ? 'rtl' : 'ltr';
 
   return (
     <html lang={locale} dir={direction}>

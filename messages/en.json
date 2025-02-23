@@ -181,6 +181,9 @@
     "Voir les avis": "View reviews"
   },
   "posts": {
+    "test_box_title": "Test Box",  
+    "app_ready_message": "This app is ready for testing and almost ready for the Apple Store and App Store. We are currently translating, changing animations, and adding more features. This version is for you to test as a beta, but we are still implementing more features.",
+    "run_test": "Run Test",
     "alert_message": "We are building the largest car rental platform",
     "discover": "Discover",
     "close": "Close",

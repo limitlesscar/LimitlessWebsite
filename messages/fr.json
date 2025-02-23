@@ -103,6 +103,9 @@
 },
 
   "posts": {
+    "test_box_title": "Boîte de test",  
+    "app_ready_message": "Cette application est prête pour les tests et presque prête pour l'Apple Store et l'App Store. Nous sommes actuellement en train de traduire, de changer les animations et d'ajouter plus de fonctionnalités. Cette version est pour vous permettre de tester la version bêta, mais nous ajoutons encore plus de fonctionnalités.",
+    "run_test": "Lancer le test",
     "ge": "Téléchargez l'application sur le Play Store ou l'App Store. ",
     "alert_message": "Nous construisons la plus grande plateforme de location de voitures",
     "discover": "Découvrir",

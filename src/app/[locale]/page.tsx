@@ -68,6 +68,7 @@ import Features from "../components/select/NewsScelect";
 import Stats from "../components/stats/stats";
 import Brands from "../components/brands/brands";
 import SearchBar from "../components/serachbar/SearchBar";
+import TestBox from "../components/testBox/TestBox";
 
 const products = [
   {
@@ -468,7 +469,7 @@ export default function Page() {
 
 
 
-
+   <TestBox/>
         <Brands />
 
         <Features />

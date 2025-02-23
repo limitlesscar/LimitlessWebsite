@@ -57,12 +57,6 @@
     "Gérez vos réservations et vos commandes Consultez et modifiez vos réservations en toute simplicité depuis votre tableau de bord": "予約と注文を管理。ダッシュボードから簡単に予約内容を確認・変更",
     "Gérez vos réservations": "予約を管理",
     "Témoignages": "体験談",
-
-  "Les voitures sont-elles assurées ?": "車両は保険に加入していますか？",
-  "Les voitures sont-elles couvertes par une assurance ?": "車両は保険でカバーされていますか？",
-  "Oui, tous les véhicules listés sur limitless sont couverts par une assurance tous risques pendant la durée de la location Notre assurance couvre les dommages, le vol et la responsabilité civile, vous offrant ainsi une tranquillité d'esprit pendant votre location": "はい、Limitlessに登録されたすべての車両は、レンタル期間中、包括的な保険でカバーされています。私たちの保険には、損害、盗難、そして対人責任が含まれており、レンタル中の安心を提供します。"
-,
-
     "Nous avons travaillé avec des milliers de personnes formidables": "私たちは素晴らしい何千人もの人々と一緒に働いてきました",
     "“Un service rapide, pratique et fiable Grâce à limitless, j'ai pu réserver une voiture en quelques minutes seulement”": "“迅速で便利で信頼できるサービス。limitlessのおかげで、数分で車を予約できました。”",
     "“J'ai réservé une voiture pour un week-end et le service a été exceptionnel Une interface facile à utiliser et un service client réactif”": "“週末のために車を予約し、サービスは素晴らしかった。使いやすいインターフェースと反応の良いカスタマーサポート。”",
@@ -138,6 +132,9 @@
     "Voir les avis": "レビューを見る"
   },
   "posts": {
+    "test_box_title": "テストボックス", 
+    "app_ready_message": "このアプリはテスト準備ができており、Apple StoreとApp Storeにほぼ準備が整っています。現在、翻訳、アニメーションの変更、機能の追加を行っています。このバージョンはベータ版としてテストするためのもので、さらに多くの機能を実装中です。",
+    "run_test": "テストを実行",
     "ge": "PlayストアまたはAppストアからアプリをダウンロードしてください。",
     "alert_message": "私たちは最大のカーシェアリングプラットフォームを構築しています。",
     "discover": "発見する",
@@ -181,9 +178,8 @@
     "vrArSpecialist": "VR戦略家"
   },
   "aidePage": {
-      "Nous vérifions tous les documents avant chaque réservation": "各予約の前にすべての書類を確認します。",
-      "L'assurance couvre la perte de la voiture sous certaines conditions Veuillez consulter les termes de l'assurance": "保険は特定の条件下で車両の損失をカバーします。保険の規約をご参照ください。"
-,
+    "Nous vérifions tous les documents avant chaque réservation": "各予約の前にすべての書類を確認します。",
+    "L'assurance couvre la perte de la voiture sous certaines conditions Veuillez consulter les termes de l'assurance": "保険は特定の条件下で車両の損失をカバーします。保険の規約をご参照ください。",
     "Comment pouvons-nous vous aider ?": "どのようにお手伝いできますか？",
     "Trouvez des réponses à vos questions ci-dessous ou utilisez la barre de recherche pour affiner votre recherche": "下記の質問に対する回答を見つけるか、検索バーを使って検索を絞り込んでください。",
     "Tapez des mots-clés pour trouver des réponses": "回答を見つけるためのキーワードを入力してください",
@@ -201,7 +197,7 @@
       "Accédez à vos annonces et supprimez celle que vous souhaitez": "あなたの広告にアクセスして、削除したい広告を選んでください。",
       "Combien de voitures puis-je publier ?": "いくつの車を投稿できますか？",
       "Vous pouvez publier un nombre illimité de voitures": "車を無制限に投稿できます。",
-        "Nous vérifions tous les documents avant chaque réservation": "私たちは各予約の前にすべての書類を確認します。",
+      "Nous vérifions tous les documents avant chaque réservation": "私たちは各予約の前にすべての書類を確認します。",
 
       "Puis-je publier une voiture sans photo ?": "写真なしで車を投稿できますか？",
       "Non, des photos sont nécessaires pour publier une voiture": "いいえ、車を投稿するには写真が必要です。",

@@ -1,15 +1,24 @@
 import { useTranslations } from 'next-intl';
 import React, { useState } from 'react';
+
 export default function TestBox() {
   const [isOpen, setIsOpen] = useState(true);
   const t = useTranslations("posts");
+
   const closeBox = () => {
     setIsOpen(false);
   };
-  const openAppleWebsite = () => {
-    // Here we are opening the Apple website in a new tab
-    window.open("https://www.apple.com", "_blank", "noopener noreferrer");
+
+  const openAppleTestFlight = () => {
+    // Here we are opening the Apple TestFlight link in a new tab
+    window.open("https://testflight.apple.com/join/3pPhveH2", "_blank", "noopener noreferrer");
   };
+
+  const openAndroidAPK = () => {
+    // Here we are opening the Android APK link in a new tab
+    window.open("https://drive.google.com/file/d/1e182N79kh86xK0xpLCfpuLoMUUBT0uJM/view?usp=drive_link", "_blank", "noopener noreferrer");
+  };
+
   return (
     isOpen && (
       <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50 transition-opacity duration-500 ease-in-out opacity-100">
@@ -31,13 +40,13 @@ export default function TestBox() {
             </p>
           </div>
           <button
-            onClick={openAppleWebsite}
+            onClick={openAppleTestFlight}
             className="mt-4 w-full bg-blue-600 text-white p-3 rounded-full hover:bg-blue-700 transition duration-300 transform hover:scale-105 focus:outline-none shadow-md hover:shadow-lg"
           >
             IOS Testflight
           </button>
           <button
-            onClick={openAppleWebsite}
+            onClick={openAndroidAPK}
             className="mt-4 w-full bg-green-600 text-white p-3 rounded-full hover:bg-green-700 transition duration-300 transform hover:scale-105 focus:outline-none shadow-md hover:shadow-lg"
           >
             Android APK

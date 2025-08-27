@@ -4,7 +4,21 @@
             "Aide et Légal": "Aiuto e Legale",
             "Location de voiture": "Noleggio auto",
             "ge": "Scarica l'app su Play Store o App Store ",
+            "Contact-w": "Contatto",
 
+  "seco": "Prenota un'auto vicino a te",
+  "secodeux": "Prenota facilmente un'auto vicino a te. Trova veicoli nelle vicinanze e scegli tra i migliori modelli.",
+  "terco": "Trova auto intorno a te sulla mappa",
+  "tercodeux": "Visualizza i veicoli disponibili intorno a te direttamente sulla mappa.",
+  "quatro": "Chatta con i proprietari",
+  "quatrodeux": "La nostra messaggistica integrata ti permette di comunicare facilmente con i proprietari dei veicoli.",
+  "cinco": "Valuta la tua esperienza",
+  "cincodeux": "Condividi la tua opinione per aiutare la nostra community a crescere e migliorare.",
+  "seis": "Invia i tuoi documenti ufficiali",
+  "seisdeux": "Conserva in modo sicuro e accessibile i tuoi documenti, come la patente di guida e la carta d'identità.",
+  "sete": "Gestisci le tue prenotazioni",
+  "setedeux": "Gestisci facilmente le tue prenotazioni. Visualizzale e modificale direttamente dal tuo pannello di controllo.",
+  
             "Devenir locataire": "Diventa locatario",
             "Aide": "Aiuto",
             "Légal": "Legale",
@@ -111,7 +125,26 @@
 },
 
 
-
+ "contact":{
+  "title": "Contatto",
+  "subtitle": "Siamo qui per aiutarti con i tuoi problemi di noleggio.",
+  "formTitle": "Compila il modulo",
+  "firstName": "Nome",
+  "lastName": "Cognome",
+  "email": "Indirizzo email",
+  "phone": "NNumero di telefono",
+  "selectPlaceholder": "Seleziona tipo di problema",
+  "stoppedRental": "Noleggio fermato",
+  "carStolen": "Auto rubata",
+  "technicalIssue": "Problema tecnico con l'auto",
+  "paymentIssue": "Problema di pagamento",
+  "appIssue": "Problema dell'applicazione",
+  "userIssue": "Problema dell'utente",
+  "other": "Altro",
+  "details": "Dettagli",
+  "submit": "Invia",
+  "responseTime": "Ti risponderemo entro 1-2 giorni lavorativi."
+},
 
   "posts": {
     "ge": "Scarica l'app su Play Store o App Store ",

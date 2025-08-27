@@ -69,23 +69,39 @@ import Stats from "../components/stats/stats";
 import Brands from "../components/brands/brands";
 import SearchBar from "../components/serachbar/SearchBar";
 import TestBox from "../components/testBox/TestBox";
+import carsmall from "../icons/carsmall";
+import mapsmall from "../icons/mapsmall";
+import chat from "../icons/chat";
 
 const products = [
   {
-    name: "Dowload the app",
+    name: "",
     description: "ge",
-    href: "#",
+    href: "/gettheapp",
     icon: SvgComponentSix,
+  },
+  {
+    name: "",
+    description: "secodeux",
+    href: "/gettheapp",
+    icon: carsmall,
+  },
+  {
+    name: "",
+    description: "tercodeux",
+    href: "/gettheapp",
+    icon: mapsmall,
+  },
+  {
+    name: "",
+    description: "quatrodeux",
+    href: "/gettheapp",
+    icon: chat,
   },
 ];
 
-const callsToAction = [
-  { name: "Watch demo", href: "#", icon: PlayCircleIcon },
-  { name: "Contact sales", href: "#", icon: PhoneIcon },
-];
-
 const backgroundImageStyle: React.CSSProperties = {
-  backgroundImage: `url(${image.src})`, // Use the .src property of the imported image
+  backgroundImage: "",
   backgroundSize: "cover",
   backgroundPosition: "center",
 };
@@ -93,7 +109,6 @@ const backgroundImageStyle: React.CSSProperties = {
 const myFont = localFont({ src: "./font/Poppins-SemiBold.ttf" });
 
 export default function Page() {
-
   const t = useTranslations("homePage");
 
   const router = useRouter();
@@ -129,36 +144,33 @@ export default function Page() {
 
   if (loading) {
     return (
-      <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-green-400 to-blue-500">
+      <div className="flex flex-col items-center justify-center h-screen bg-[#32bb78]">
         <div className="relative flex flex-col items-center">
           <div className="absolute inset-0 bg-opacity-50 rounded-full animate-pulse"></div>
-          
-          {/* Logo */}
-          <Image src={logo} alt="Logo" width={80} height={80} className="z-10 mb-4" />
-
-          {/* Loading Text */}
-          <div className="text-white font-bold text-lg animate-bounce mb-4">...</div>
-
-          {/* Progress Bar */}
+          <Image
+            src={logo}
+            alt="Logo"
+            width={80}
+            height={80}
+            className="z-10 mb-4"
+          />
+          <div className="text-white font-bold text-lg animate-bounce mb-4">
+            ...
+          </div>
           <div className="w-64 bg-gray-300 rounded-full h-2">
             <div
               className="bg-blue-600 h-2 rounded-full"
               style={{ width: `${progress}%` }}
             ></div>
           </div>
-
-          {/* Progress Text */}
           <div className="text-white font-medium mt-2">{progress}%</div>
         </div>
       </div>
     );
   }
 
-
   return (
     <div>
-      
-
       <div className={myFont.className}>
         <header className="bg-gray-500 bg-opacity-5 fixed backdrop-blur-lg rounded-xl border border-white/20  mb-12 w-full py-0.5 px-2 shadow-sm">
           <nav
@@ -183,11 +195,9 @@ export default function Page() {
                 onClick={() => setMobileMenuOpen(true)}
                 className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-black"
               >
-                <span className="sr-only">Open main menu</span>
-
+                <span className="sr-only">Open menu</span>
                 <MenuIcon />
               </button>
-
               <button
                 onClick={handleNavigateTwo}
                 type="button"
@@ -205,9 +215,10 @@ export default function Page() {
                     className="h-5 w-5 flex-none text-black"
                   />
                 </PopoverButton>
+
                 <PopoverPanel
                   transition
-                  className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
+                  className="absolute left-1/2 -translate-x-1/2 top-full z-50 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
                 >
                   <div className="p-4">
                     {products.map((item) => (
@@ -238,14 +249,12 @@ export default function Page() {
                   </div>
                 </PopoverPanel>
               </Popover>
-
               <button
                 onClick={handleNavigate}
                 className="text-sm font-semibold leading-6 hover:underline hover:decoration-4 hover:decoration-white text-black"
               >
                 {t("Devenir locataire")}
               </button>
-
               <a
                 href="/aide"
                 className="text-sm font-semibold leading-6 hover:underline hover:decoration-4 hover:decoration-white text-black"
@@ -258,14 +267,19 @@ export default function Page() {
               >
                 {t("Légal")}
               </a>
+              <a
+                href="/contact"
+                className="text-sm font-semibold leading-6 hover:underline hover:decoration-4 hover:decoration-white text-black"
+              >
+                {t("Contact-w")}
+              </a>
             </PopoverGroup>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-           
               <LocaleSwitcher />
             </div>
-
-            <SearchBar/>
+            <SearchBar />
           </nav>
+
           <Dialog
             open={mobileMenuOpen}
             onClose={setMobileMenuOpen}
@@ -297,7 +311,10 @@ export default function Page() {
                 <div className="-my-6 divide-y divide-gray-500/10">
                   <div className="space-y-2 py-6">
                     <Disclosure as="div" className="-mx-3">
-                      <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                      <DisclosureButton
+                        style={{ outline: "none", boxShadow: "none" }}
+                        className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring-0 focus:shadow-none"
+                      >
                         {t("Télécharger")}
                         <ChevronDownIcon
                           aria-hidden="true"
@@ -310,13 +327,15 @@ export default function Page() {
                             key={item.name}
                             as="a"
                             href={item.href}
-                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                            style={{ outline: "none", boxShadow: "none" }}
+                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring-0 focus:shadow-none"
                           >
                             {item.name}
                           </DisclosureButton>
                         ))}
                       </DisclosurePanel>
                     </Disclosure>
+
                     <a
                       href="/new"
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
@@ -328,6 +347,12 @@ export default function Page() {
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 mb-24"
                     >
                       {t("Aide")}
+                    </a>
+                    <a
+                      href="/contact"
+                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 mb-24"
+                    >
+                      {t("Contact-w")}
                     </a>
                     <LocaleSwitcher removeMargin removePadding />
 
@@ -389,32 +414,30 @@ export default function Page() {
           </Dialog>
         </header>
 
-        <div className="bg-blue-700 " style={backgroundImageStyle}>
+        <div
+          className="bg-blue-700 "
+          style={{
+            backgroundColor: "white",
+          }}
+        >
           <div className="px-6 py-24 sm:px-6 sm:py-52 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
               <motion.div
-                className="mt-6 lg:mt-4"
+                className="lg:mt-4 mt-12"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, ease: "easeOut" }}
               >
-                <span className="border-2 mt-22 text-white text-xs font-medium me-2 px-3.5 py-2.5 rounded-full mt-12 bg-gradient-to-r from-blue-500 via-[#32bb78] to-[#32bb78]">
+                <span className="border-2 lg:mt-22  text-white text-xs font-medium me-2 px-3.5 py-2.5 rounded-[12px] mt-12 bg-[#32bb78]">
                   <a href="/aide">
-                    {" "}
-                    {t("Notre assurance prend en compte tout")} ➝
+                    {t("Notre assurance prend en compte tout")}
                   </a>
                 </span>
               </motion.div>
 
-              <h2 className="different mt-12 mb-10 text-4xl lg:text-6xl font-semibold tracking-tight sm:text-5xl leading-relaxed bg-gradient-to-r from-blue-500 to-[#32bb78] bg-clip-text text-transparent animate-pulse">
-  <span>{t("Location de voitures")}</span>
-</h2>
-
-
-
-
-
-
+              <h2 className="different mt-12 mb-10 text-4xl lg:text-4xl font-semibold tracking-tight sm:text-5xl leading-relaxed text-black   animate-pulse">
+                <span>{t("Location de voitures")}</span>
+              </h2>
               <p className="mx-auto mt-6 max-w-xl text-md text-black">
                 {t("appDescription")}
               </p>
@@ -422,9 +445,9 @@ export default function Page() {
               <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-y-6 sm:gap-x-6 sm:gap-y-0">
                 <a
                   href="gettheapp"
-                  className="rounded-full   hover:border-[#32bb78] bg-black px-12 py-3.5 text-sm font-semibold text-white
-          hover:bg-[#32bb78] hover:shadow-lg focus:ring-4 focus:ring-green-500 focus:outline-none 
-          focus:ring-offset-2 focus:ring-offset-black active:shadow-xl active:scale-95 flex items-center gap-2 transition-all duration-300 ease-in-out transform hover:scale-105"
+                  className="rounded-full bg-[#32bb78] px-12 py-3.5 text-sm font-semibold text-white
+                  hover:bg-black hover:text-white hover:border-[#32bb78] hover:shadow-lg focus:ring-4 focus:ring-green-500 focus:outline-none 
+                  focus:ring-offset-2 focus:ring-offset-[#32bb78] active:shadow-xl active:scale-95 flex items-center gap-2 transition-all duration-300 ease-in-out transform hover:scale-105"
                 >
                   <SvgComponentTrois />
                   {t("Télécharger l'appli pour IOS")}
@@ -432,9 +455,9 @@ export default function Page() {
 
                 <a
                   href="gettheapp"
-                  className="rounded-full border  hover:border-[#32bb78] bg-black px-12 py-3.5 text-sm font-semibold text-white 
-          hover:bg-[#32bb78] hover:shadow-lg focus:ring-4 focus:ring-green-500 focus:outline-none 
-          focus:ring-offset-2 focus:ring-offset-black active:shadow-xl active:scale-95 flex items-center gap-2 transition-all duration-300 ease-in-out transform hover:scale-105"
+                  className="rounded-full border border-[#32bb78] bg-[#32bb78] px-12 py-3.5 text-sm font-semibold text-white
+  hover:bg-black hover:text-white hover:shadow-lg focus:ring-4 focus:ring-green-500 focus:outline-none 
+  focus:ring-offset-2 focus:ring-offset-[#32bb78] active:shadow-xl active:scale-95 flex items-center gap-2 transition-all duration-300 ease-in-out transform hover:scale-105"
                 >
                   <SvgComponentQuatre />
                   {t("Télécharger l'appli pour Android")}
@@ -458,7 +481,7 @@ export default function Page() {
 
               <div className="flex justify-center mt-4 animate-rating">
                 <span className="text-black text-sm font-semibold">4.6/5</span>
-                <span className="text-black text-sm mx-2">★ ★ ★ ★ ★</span>
+                <span className="text-black text-[12px] mx-2">★ ★ ★ ★ ★</span>
                 <span className="text-black text-sm">
                   ({t("10k avis sur les stores")})
                 </span>
@@ -466,23 +489,16 @@ export default function Page() {
             </div>
           </div>
         </div>
-
-
-
-   <TestBox/>
+        <TestBox />
         <Brands />
-
         <Features />
-
         <BannerBusiness />
         <Box2 />
         <InfoModal />
         <Boxone />
         <BlogSectione />
         <Reviews />
-
         <FAQSection />
-
         <Team />
         <Footer />
       </div>
@@ -493,4 +509,3 @@ export default function Page() {
 function setLoading(arg0: boolean) {
   throw new Error("Function not implemented.");
 }
-

@@ -5,6 +5,7 @@ import { useLocale } from 'next-intl';
 import { useState } from 'react';
 import LocaleSwitcherSelect from './LocaleSwitcherSelect';
 import { CircleFlagLanguage } from 'react-circle-flags';
+import { usePathname } from 'next/navigation';
 
 
 type LocaleSwitcherProps = {
@@ -30,6 +31,8 @@ export default function LocaleSwitcher({
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleDropdown = () => setIsDropdownOpen((prev) => !prev);
+  const pathname = usePathname();
+  const isNewPage = pathname === "/new";
 
   const currentLanguageName = languages[locale] || locale;
 
@@ -44,13 +47,16 @@ export default function LocaleSwitcher({
         aria-haspopup="true"
         aria-expanded={isDropdownOpen ? 'true' : 'false'}
       >
-        <div className="bg-transparent text-black hover:bg-gray-100 hover:ring-2 hover:ring-[#32bb78]  border-2 flex items-center justify-between transition-all duration-300 ease-in-out rounded-full px-4 py-2">
+        <div 
+         className={`bg-transparent  hover:bg-gray-100 hover:ring-2 hover:ring-[#32bb78] border-2 flex items-center justify-between transition-all duration-300 ease-in-out rounded-full px-4 py-2`}
+    >
           <CircleFlagLanguage className="w-6 h-6" languageCode={locale as string} />
           <p className="ml-2 text-sm font-medium">{currentLanguageName}</p>
           <ChevronDownIcon className="w-4 h-4 ml-2 text-gray-500" />
         </div>
 
         {isDropdownOpen && (
+         
           <div className="absolute mt-2 left-0 right-0 bg-white shadow-lg rounded-lg z-10 max-h-60 overflow-auto ring-1 ring-[#32bb78]">
             <LocaleSwitcherSelect
               currentLocale={locale}

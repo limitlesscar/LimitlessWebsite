@@ -13,55 +13,66 @@
     "googlePlay": "Google Play",
     "thisComponentIsPartOf": "Descarga nuestra aplicación. La versión 3 aún no está en la App Store ni en Google Play.",
     "flowbiteDocumentation": "Limitless",
-    
+    "Contact-w": "Contact",
+  "seco": "Book a car near you",
+  "secodeux": "Easily book a car near you. Find nearby vehicles and choose from the best models.",
+  "terco": "Locate cars around you on the map",
+  "tercodeux": "Display available vehicles around you directly on the map.",
+  "quatro": "Chat with car owners",
+  "quatrodeux": "Our built-in messaging allows you to easily communicate with vehicle owners.",
+  "cinco": "Rate your experience",
+  "cincodeux": "Share your feedback to help our community grow and improve.",
+  "seis": "Submit your official documents",
+  "seisdeux": "Keep your documents like your driver's license and ID safe and easily accessible.",
+  "sete": "Manage your bookings",
+  "setedeux": "Easily manage your bookings. View and modify them directly from your dashboard.",
+
+
     "Gérez vos réservations et vos commandes Consultez et modifiez vos réservations en toute simplicité depuis votre tableau de bord": " Manage your bookings and orders. View and modify your reservations easily from your dashboard",
 
     "Notre assurance prend en compte tout": "Our insurance takes everything into account",
     "Aide": "Help",
-      "host": "For Hosts",
-      "renter": "For Renters",
-      "questions": {
-        "host": [
-          {
-            "question": "How do I list a car?",
-            "answer": "You can list a car from your dashboard."
-          },
-          {
-            "question": "Can I edit my listing?",
-            "answer": "Yes, go to your listings to edit them."
-          },
-          {
-            "question": "How do I delete a listing?",
-            "answer": "Go to your listings and delete the one you want."
-          },
-          {
-            "question": "How many cars can I list?",
-            "answer": "You can list an unlimited number of cars."
-          }
-        ],
-        "renter": [
-          {
-            "question": "How do I book a car?",
-            "answer": "Search for a car and click the book button."
-          },
-          {
-            "question": "What should I do if I'm late?",
-            "answer": "Contact the host to inform them of the delay."
-          },
-          {
-            "question": "How do I know if the car is available?",
-            "answer": "The car's availability is indicated on the listing page."
-          },
-          {
-            "question": "What happens if the host cancels my booking?",
-            "answer": "We will offer you an alternative or a refund."
-          }
-        ]
-      }
-    
+    "host": "For Hosts",
+    "renter": "For Renters",
+    "questions": {
+      "host": [
+        {
+          "question": "How do I list a car?",
+          "answer": "You can list a car from your dashboard."
+        },
+        {
+          "question": "Can I edit my listing?",
+          "answer": "Yes, go to your listings to edit them."
+        },
+        {
+          "question": "How do I delete a listing?",
+          "answer": "Go to your listings and delete the one you want."
+        },
+        {
+          "question": "How many cars can I list?",
+          "answer": "You can list an unlimited number of cars."
+        }
+      ],
+      "renter": [
+        {
+          "question": "How do I book a car?",
+          "answer": "Search for a car and click the book button."
+        },
+        {
+          "question": "What should I do if I'm late?",
+          "answer": "Contact the host to inform them of the delay."
+        },
+        {
+          "question": "How do I know if the car is available?",
+          "answer": "The car's availability is indicated on the listing page."
+        },
+        {
+          "question": "What happens if the host cancels my booking?",
+          "answer": "We will offer you an alternative or a refund."
+        }
+      ]
+    },
 
-    
-    ,
     "modal": {
       "title": "Formulaire de contact",
       "name": "Nom",
@@ -144,6 +155,26 @@
     "Nous sommes là pour vous aider": "We are here to help",
     "Visitez le centre d'aide": "Visit the help center"
   },
+  "contact":{
+  "title": "Contact us",
+  "subtitle": "We are here to help you with your rental issues.",
+  "formTitle": "Fill out the form",
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "email": "Email Address",
+  "phone": "Phone Number",
+  "selectPlaceholder": "Select Problem Type",
+  "stoppedRental": "Stopped Rental",
+  "carStolen": "Car Stolen",
+  "technicalIssue": "Technical Issue with the Car",
+  "paymentIssue": "Payment Issue",
+  "appIssue": "App Issue",
+  "userIssue": "User Issue",
+  "other": "Other",
+  "details": "Details",
+  "submit": "Submit",
+  "responseTime": "We will respond within 1 to 2 business days."
+},
   "newPage": {
     "Gagner de l'argent": "Earn money",
     "main-desc": "With limitless, rent out your car and turn it into an additional source of income. Earn your salary easily by sharing your vehicle. limitless is the perfect solution to make your car profitable with ease.",
@@ -181,7 +212,7 @@
     "Voir les avis": "View reviews"
   },
   "posts": {
-    "test_box_title": "Test Box",  
+    "test_box_title": "Test Box",
     "app_ready_message": "This app is ready for testing and almost ready for the Apple Store and App Store. We are currently translating, changing animations, and adding more features. This version is for you to test as a beta, but we are still implementing more features.",
     "run_test": "Run Test",
     "alert_message": "We are building the largest car rental platform",
@@ -222,15 +253,13 @@
     "immersiveTech": "Immersive Technology",
     "emmaBrown": "Emma Brown",
     "vrArSpecialist": "Virtual Reality Strategist"
-  }
-,
- "cookieBanner": {
-  "message": "This site uses cookies to enhance your experience.",
-  "policyLink": "Cookie Policy",
-  "acceptButton": "Accept All",
-  "rejectButton": "Reject All"
-}
-,
+  },
+  "cookieBanner": {
+    "message": "This site uses cookies to enhance your experience.",
+    "policyLink": "Cookie Policy",
+    "acceptButton": "Accept All",
+    "rejectButton": "Reject All"
+  },
   "aidePage": {
     "Comment pouvons-nous vous aider ?": "How can we help you?",
     "Trouvez des réponses à vos questions ci-dessous ou utilisez la barre de recherche pour affiner votre recherche": "Find answers to your questions below or use the search bar to refine your search.",
@@ -354,10 +383,10 @@
       "Contactez immédiatement notre équipe de support pour vous guider dans les démarches": "Contact our support team immediately for guidance on the process.",
       "Comment déposer une réclamation d'assurance ?": "How to file an insurance claim?",
       "Oui, l'assurance est incluse dans chaque réservation": "Yes, insurance is included in every booking.",
-  "Contactez immédiatement notre support pour obtenir des instructions": "Contact our support immediately for instructions",
-  "L'assurance couvre la perte de la voiture sous certaines conditions Veuillez consulter les termes de l'assurance": "The insurance covers the loss of the car under certain conditions. Please refer to the insurance terms",
-  "Vous pouvez soumettre une réclamation via notre centre d’aide": "You can submit a claim via our help center",
-  "Les conditions d’utilisation sont disponibles dans le centre d’aide de l'application": "The terms of use are available in the help center of the application",
+      "Contactez immédiatement notre support pour obtenir des instructions": "Contact our support immediately for instructions",
+      "L'assurance couvre la perte de la voiture sous certaines conditions Veuillez consulter les termes de l'assurance": "The insurance covers the loss of the car under certain conditions. Please refer to the insurance terms",
+      "Vous pouvez soumettre une réclamation via notre centre d’aide": "You can submit a claim via our help center",
+      "Les conditions d’utilisation sont disponibles dans le centre d’aide de l'application": "The terms of use are available in the help center of the application",
       "Contactez notre équipe via le centre d’aide de l’application": "Contact our team via the help center of the app.",
       "L’assurance est incluse dans chaque réservation, vous pouvez vérifier dans les détails de la réservation": "Insurance is included in every reservation, you can check the details in the reservation.",
       "Vous pouvez soumettre une réclamation via notre centre d'aide": "You can submit a claim through our help center.",
@@ -365,8 +394,8 @@
       "Contactez notre équipe de support pour obtenir de l’aide": "Contact our support team for assistance.",
       "Consultez nos conditions générales sur notre site web": "Check our general terms and conditions on our website.",
       "Comment signaler un problème ?": "How to report a problem?",
-       "Utilisez notre formulaire de contact pour nous signaler tout problème": "Use our contact form to report any issue.",
-  "Contactez notre équipe de support et nous prendrons les mesures nécessaires": "Contact our support team and we will take the necessary actions.",
+      "Utilisez notre formulaire de contact pour nous signaler tout problème": "Use our contact form to report any issue.",
+      "Contactez notre équipe de support et nous prendrons les mesures nécessaires": "Contact our support team and we will take the necessary actions.",
       "Utilisez notre formulaire de contact pour signaler un problème": "Use our contact form to report a problem.",
       "Que faire si j'ai un problème légal ?": "What if I have a legal issue?",
       "Contactez notre équipe juridique via le formulaire de contact": "Contact our legal team through the contact form.",
@@ -400,7 +429,3 @@
     "Pour toute demande d'autorisation, veuillez nous contacter directement via notre formulaire de contact": "For any authorization request, please contact us directly via our contact form."
   }
 }
-
-
-
-

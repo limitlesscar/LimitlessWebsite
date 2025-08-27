@@ -2,7 +2,7 @@ import { useTranslations } from 'next-intl';
 import React, { useState } from 'react';
 
 export default function TestBox() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const t = useTranslations("posts");
 
   const closeBox = () => {
@@ -22,9 +22,9 @@ export default function TestBox() {
   return (
     isOpen && (
       <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50 transition-opacity duration-500 ease-in-out opacity-100">
-        <div className="p-8 bg-white border border-gray-300 rounded-xl shadow-lg w-96 transition-transform transform hover:scale-105 hover:shadow-2xl">
+<div className="p-8 bg-white/30 backdrop-blur-md border border-white/20 rounded-xl shadow-lg w-96 transition-transform transform hover:scale-105 hover:shadow-2xl">
           <div className="flex justify-between items-center mb-6">
-            <h3 className="text-2xl font-semibold text-gray-900">
+            <h3 className="text-2xl font-semibold text-white">
               {t('test_box_title')}
             </h3>
             <button
@@ -35,19 +35,19 @@ export default function TestBox() {
             </button>
           </div>
           <div className="flex flex-col items-center mb-6">
-            <p className="text-sm text-gray-700 text-center leading-relaxed">
+            <p className="text-sm text-white text-center leading-relaxed">
               {t('app_ready_message')}
             </p>
           </div>
           <button
             onClick={openAppleTestFlight}
-            className="mt-4 w-full bg-blue-600 text-white p-3 rounded-full hover:bg-blue-700 transition duration-300 transform hover:scale-105 focus:outline-none shadow-md hover:shadow-lg"
+            className="mt-4 w-full bg-blue-600 text-white p-3 rounded-[8px] hover:bg-blue-700 transition duration-300 transform hover:scale-105 focus:outline-none shadow-md hover:shadow-lg"
           >
             IOS Testflight
           </button>
           <button
             onClick={openAndroidAPK}
-            className="mt-4 w-full bg-green-600 text-white p-3 rounded-full hover:bg-green-700 transition duration-300 transform hover:scale-105 focus:outline-none shadow-md hover:shadow-lg"
+            className="mt-4 w-full bg-green-600 text-white p-3 rounded-[8px] hover:bg-green-700 transition duration-300 transform hover:scale-105 focus:outline-none shadow-md hover:shadow-lg"
           >
             Android APK
           </button>

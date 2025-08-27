@@ -4,11 +4,22 @@
             "Location de voiture": "Aluguel de carro",
             "Devenir locataire": "Tornar-se locatário",
             "Aide": "Ajuda",
+            "Contact-w": "Contato",
             "ge": "Baixe o app na Play Store ou na App Store ",
-
+  "seco": "Reserve um carro perto de você",
+  "secodeux": "Reserve um carro perto de você com facilidade. Encontre veículos próximos e escolha entre os melhores modelos.",
+  "terco": "Localize carros ao seu redor no mapa",
+  "tercodeux": "Veja os veículos disponíveis ao seu redor diretamente no mapa.",
+  "quatro": "Converse com os proprietários",
+  "quatrodeux": "Nosso sistema de mensagens integrado permite que você se comunique facilmente com os proprietários dos veículos.",
+  "cinco": "Avalie sua experiência",
+  "cincodeux": "Compartilhe sua opinião para ajudar nossa comunidade a crescer e melhorar.",
+  "seis": "Envie seus documentos oficiais",
+  "seisdeux": "Mantenha seus documentos, como CNH e RG, seguros e facilmente acessíveis.",
+  "sete": "Gerencie suas reservas",
+  "setedeux": "Gerencie suas reservas com facilidade. Visualize e edite diretamente pelo seu painel.",
             "Légal": "Legal",
             "Support primé": "Suporte premiado",
-       
               "workFastFromAnywhere": "Alugue um carro em qualquer lugar",
               "stayUpdatedWithFlowbite": "Mantenha-se atualizado e avance com o Limitless no iOS e Android. Baixe o aplicativo hoje.",
               "downloadOnThe": "Baixar na",
@@ -145,7 +156,7 @@
     "excitedToHelp": "Estamos empolgados em ajudá-lo a ganhar dinheiro.",
     "becomeTenant": "Torne-se um inquilino",
     "help": "Ajuda",
-    "fromBlog": "Do blog",
+    "fromBlog": "Nossas publicações",
     "learnToGrow": "Explore como a tecnologia está transformando a indústria automotiva.",
     "boostConversion": "Revolucionando a Condução Autônoma",
     "boostConversionDescription": "Descubra os avanços mais recentes na tecnologia de direção autônoma, incluindo decisões baseadas em IA, fusão de sensores e melhorias de segurança no mundo real.",
@@ -182,7 +193,26 @@
     "vrArSpecialist": "Estrategista de Realidade Virtual"
 },
 
-
+ "contact":{
+  "title": "Entre em contato conosco",
+  "subtitle": "Estamos aqui para ajudá-lo com seus problemas de aluguel.",
+  "formTitle": "Preencha o formulário abaixo",
+  "firstName": "Nome",
+  "lastName": "Sobrenome",
+  "email": "Email",
+  "phone": "Telefone",
+  "selectPlaceholder": "Selecione o tipo de problema",
+  "stoppedRental": "Aluguel parado",
+  "carStolen": "Carro roubado",
+  "technicalIssue": "Problema técnico com o carro",
+  "paymentIssue": "Problema de pagamento",
+  "appIssue": "Problema do aplicativo",
+  "userIssue": "Problema de usuário",
+  "other": "Outros",
+  "details": "Detalhes",
+  "submit": "Enviar",
+  "responseTime": "Tempo de resposta"
+},
 
   "aidePage": {
     "Comment pouvons-nous vous aider ?": "Como podemos ajudá-lo?",

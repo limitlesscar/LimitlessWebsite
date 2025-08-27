@@ -106,7 +106,7 @@ export default function SearchBar() {
       {/* Search Button */}
       <button
         onClick={toggleSearch}
-        className="bg-gradient-to-r ml-4 from-green-400 to-blue-500 p-2 rounded-full shadow-lg text-white flex items-center justify-center w-10 h-10"
+        className="bg-gradient-to-r ml-4 bg-[#32bb78] p-2 rounded-full shadow-lg text-white flex items-center justify-center w-10 h-10"
       >
         <MagnifyingGlassIcon className="w-6 h-6" />
       </button>
